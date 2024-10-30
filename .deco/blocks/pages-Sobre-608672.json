@@ -1,7 +1,72 @@
 {
   "name": "Sobre",
   "path": "/sobre",
-  "sections": [],
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/HeaderVideoWithText.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/4b839ed0-f2dd-4978-96c5-98d154d14758/sobre.mov",
+        "title": "Sobre a Galeria",
+        "description": "UM NOVO MODELO DE AGÊNCIA CAPAZ DE LIDERAR AS MARCAS MAIS ICÔNICAS DO NOSSO TEMPO",
+        "position": "Centro"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "A Galeria foi fundada em 2021, com a missão de simplificar o ecossistema de comunicação dos anunciantes, fornecendo soluções completas e combinando tecnologia, criatividade, uso de dados e visão estratégica agnóstica.\n\nA Galeria rapidamente se tornou a segunda maior agência do Brasil. Em seu primeiro ano foi eleita a Agência do Ano pelo Caboré e Melhores do Propmark.\n\nAtualmente é a agência líder em OOH e a 2ª maior com investimentos de mídia do Brasil."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentGallery.tsx",
+        "images": [
+          {
+            "description": "Recepção",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/b145310f-3218-4c6a-aed3-4dad4138b60e/misc-3.jpg"
+          },
+          {
+            "description": "Telão",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/913b6b21-668d-476b-a45f-db3610735846/misc-1.jpg"
+          },
+          {
+            "description": "Área Externa",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/1439addf-43ed-4b5b-87ed-f9ad8216ce82/misc-2.jpg"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/759aa07d-2c64-41d0-8d4f-13155291044a/misc-4.jpg",
+            "description": "Logo Galeria"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "Clientes",
+        "hoverText": "Clientes",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/dfc871fe-97bd-4b67-94f6-add9502fc5f1/capa.png",
+        "url": "/clientes"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },

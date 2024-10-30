@@ -1,2 +1,2 @@
-export { default } from "apps/blog/mod.ts";
-export * from "apps/blog/mod.ts";
+export { default } from "./blog/mod.ts";
+export * from "./blog/mod.ts";

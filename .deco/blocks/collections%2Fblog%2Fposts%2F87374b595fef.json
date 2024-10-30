@@ -1,0 +1,37 @@
+{
+  "name": "collections/blog/posts/87374b595fef",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "extraProps": [],
+    "title": "Helados",
+    "year": "2024",
+    "company": "McDonald's",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/16a5da54-7b10-407a-81b9-c115c1b342c4/capa.jpg",
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Uma sobremesa do McDonald's é capaz de melhorar tudo, com opções que vão desde os McShakes, passando pelo McFlurry, até a clássica Casquinha. E para celebrar o sucesso dessa plataforma, criamos uma campanha para América Latina protagonizada por Owen Wilson, ator e roteirista intimamente ligado ao humor e a momentos de descontração. No filme, Owen demonstra como as sobremesas do Méqui são capazes de abrir sorrisos, deixando o dia mais feliz."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/ba4fbd10-b3fa-47af-89c1-35d397e93617/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "Azeites",
+        "hoverText": "Gallo",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/1203507c-beb4-4e41-9892-9019fbe873ba/capa.jpg",
+        "url": "/sabor-que-nos une"
+      }
+    ],
+    "slug": "helados"
+  }
+}

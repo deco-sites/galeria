@@ -1,4 +1,4 @@
-import blog from "apps/blog/mod.ts";
+import blog from "./deco/blog/mod.ts";
 import website, { Props } from "apps/website/mod.ts";
 import manifest, { Manifest } from "../manifest.gen.ts";
 import { type App as App, type AppContext as AC } from "@deco/deco";

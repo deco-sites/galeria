@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/87797347b39b",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "O que faz uma experiência ser gourmet? A partir desta pergunta, lançamos a campanha institucional de Seara Gourmet, valorizando a combinação de sabores, a qualidade dos produtos e toda a experiência sensorial envolvida. Com o garfo como ícone, sob o conceito “Só se for Seara Gourmet” e com muito appetite apeal em cada cena, o primeiro filme apresenta a produção artesanal que é uma forte característica dessa linha de produtos."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/0b3a168e-0ab5-493e-827e-a4f47bf791cb/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "McDonald's",
+        "hoverText": "McDonald's",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/eb80e9f8-fba5-46a4-a2fa-cb390afd5fe9/capa.png",
+        "url": "/cheddarize-se"
+      }
+    ],
+    "extraProps": [],
+    "slug": "so-se-for-seara-gourmet",
+    "title": "Só se for Seara Gourmet",
+    "year": "2024",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/35b75fd7-1d83-46a1-8add-67dd9e8795b0/capa.jpg",
+    "company": "Seara Gourmet"
+  }
+}

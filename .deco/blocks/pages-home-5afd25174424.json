@@ -6,26 +6,68 @@
       "__resolveType": "Header"
     },
     {
-      "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
-      "description": "This text is entirely editable, tailor it freely."
-    },
-    {
-      "__resolveType": "site/sections/MainPost.tsx",
-      "post": {
-        "__resolveType": "blog/loaders/BlogPostItem.ts",
-        "slug": "why-we-web"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/HeaderVideoWithText.tsx",
+        "videoMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/caf633ac-4eae-4ec5-a0e1-1682facb4619/capa-mobile.mp4",
+        "title": "A MAIOR AGÊNCIA INDEPENDENTE DO BRASIL",
+        "description": "Unimos sensibilidade cultural, tecnologia e dados para criar histórias poderosas e marcas icônicas",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/fe653f64-8bcf-4ab2-a6e1-4df20e1745ef/abertura_completa.mp4",
+        "position": "Esquerda"
       }
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx",
-      "posts": {
-        "__resolveType": "blog/loaders/BlogpostList.ts",
-        "count": 6
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentSwipper.tsx",
+        "items": [
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/5dc5d046-54ff-4aa1-88dd-a00b376b767c/logo-cabore.png",
+            "title": "Eleita Agência do Ano",
+            "description": "- Caboré 2022"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/f8d548c3-c685-41fe-af2a-a1c3b73fb289/logo-propmark.png",
+            "title": "Eleita a Melhor Agência",
+            "description": "- Propaganda & Marketing"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/1c080162-9a25-4918-954f-62fe2db6dbbd/logo-scopen.png",
+            "title": "Melhor Agência do Brasil em 15 Atributos",
+            "description": "- Agency Scope 2022/23"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentTitle.tsx",
+        "title": "Trabalhos",
+        "content": "TRANSFORMANDO NEGÓCIOS POR MEIO DA CRIATIVIDADE"
       }
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "site/sections/MainPost.tsx",
+      "post": {
+        "authors": [],
+        "categories": [],
+        "seo": {},
+        "extraProps": []
+      }
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "posts": [
+        {
+          "authors": [],
+          "categories": [],
+          "extraProps": []
+        }
+      ]
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

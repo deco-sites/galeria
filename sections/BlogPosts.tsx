@@ -1,7 +1,7 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { ComponentChildren, Fragment } from "preact";
-import { BlogPost } from "apps/blog/types.ts";
+import { BlogPost } from "../apps/deco/blog/types.ts";
 import { useId } from "../sdk/useId.ts";
 import { useSection as useSection } from "@deco/deco/hooks";
 export interface CTA {
@@ -85,9 +85,6 @@ export default function BlogPosts(
                 loading="lazy"
               />
               <div class="p-6 space-y-4">
-                <div class="font-semibold">
-                  {calculateReadingTime(post.content.split(" ").length)}
-                </div>
                 <div class="space-y-2">
                   <h3 class="text-2xl">{post.title}</h3>
                   <p class="text-base">{post.excerpt}</p>
@@ -98,19 +95,6 @@ export default function BlogPosts(
                       {category.name}
                     </div>
                   ))}
-                </div>
-                <div class="flex flex-wrap gap-2">
-                  <span>
-                    {post.date
-                      ? new Date(post.date).toLocaleDateString("en-US", {
-                        month: "long",
-                        day: "numeric",
-                        year: "numeric",
-                      })
-                      : ""}
-                  </span>
-                  <span>•</span>
-                  <span>{post.authors[0]?.name}</span>
                 </div>
               </div>
             </a>

@@ -9,11 +9,13 @@
       "__resolveType": "site/sections/BlogPosts.tsx",
       "posts": {
         "__resolveType": "blog/loaders/BlogpostList.ts",
-        "count": 6,
         "slug": {
           "__resolveType": "website/functions/requestToParam.ts",
-          "param": "category"
-        }
+          "param": "slug"
+        },
+        "sortBy": "date_desc",
+        "count": 10,
+        "page": 1
       }
     },
     {

@@ -3,38 +3,104 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
-import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
-import * as $$$$$$$$$$$2 from "./apps/site.ts";
+import * as $$$$$$$$$$$1 from "./apps/deco/blog/loaders/Author.ts";
+import * as $$$$$$$$$$$4 from "./apps/deco/blog/loaders/Blogpost.ts";
+import * as $$$$$$$$$$$2 from "./apps/deco/blog/loaders/BlogPostItem.ts";
+import * as $$$$$$$$$$$5 from "./apps/deco/blog/loaders/BlogpostList.ts";
+import * as $$$$$$$$$$$6 from "./apps/deco/blog/loaders/BlogpostListing.ts";
+import * as $$$$$$$$$$$3 from "./apps/deco/blog/loaders/BlogPostPage.ts";
+import * as $$$$$$$$$$$7 from "./apps/deco/blog/loaders/Category.ts";
+import * as $$$$$$$$$$$8 from "./apps/deco/blog/loaders/GetCategories.ts";
+import * as $$$$$$$$$$$9 from "./apps/deco/blog/manifest.gen.ts";
+import * as $$$$$$$$$$$10 from "./apps/deco/blog/mod.ts";
+import * as $$$$$$$$$$$11 from "./apps/deco/blog/sections/Seo/SeoBlogPost.tsx";
+import * as $$$$$$$$$$$12 from "./apps/deco/blog/sections/Seo/SeoBlogPostListing.tsx";
+import * as $$$$$$$$$$$13 from "./apps/deco/blog/sections/Template.tsx";
+import * as $$$$$$$$$$$14 from "./apps/deco/blog/static/css.ts";
+import * as $$$$$$$$$$$15 from "./apps/deco/blog/types.ts";
+import * as $$$$$$$$$$$16 from "./apps/deco/blog/utils/constants.ts";
+import * as $$$$$$$$$$$17 from "./apps/deco/blog/utils/handlePosts.ts";
+import * as $$$$$$$$$$$18 from "./apps/deco/blog/utils/records.ts";
+import * as $$$$$$$$$$$19 from "./apps/deco/htmx.ts";
+import * as $$$$$$$$$$$20 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/BlogPost.tsx";
 import * as $$$$$$1 from "./sections/BlogPosts.tsx";
-import * as $$$$$$2 from "./sections/Faq.tsx";
-import * as $$$$$$3 from "./sections/Footer.tsx";
-import * as $$$$$$4 from "./sections/Header.tsx";
-import * as $$$$$$5 from "./sections/Hero.tsx";
-import * as $$$$$$6 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$7 from "./sections/Logos.tsx";
-import * as $$$$$$8 from "./sections/MainPost.tsx";
-import * as $$$$$$9 from "./sections/Testimonials.tsx";
-import * as $$$$$$10 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$2 from "./sections/Contents/ContentButton.tsx";
+import * as $$$$$$3 from "./sections/Contents/ContentCardJob.tsx";
+import * as $$$$$$4 from "./sections/Contents/ContentGallery.tsx";
+import * as $$$$$$5 from "./sections/Contents/ContentGridClients.tsx";
+import * as $$$$$$6 from "./sections/Contents/ContentImage.tsx";
+import * as $$$$$$7 from "./sections/Contents/ContentNextPage.tsx";
+import * as $$$$$$8 from "./sections/Contents/ContentSwipper.tsx";
+import * as $$$$$$9 from "./sections/Contents/ContentText.tsx";
+import * as $$$$$$10 from "./sections/Contents/ContentTitle.tsx";
+import * as $$$$$$11 from "./sections/Contents/ContentVideo.tsx";
+import * as $$$$$$12 from "./sections/Faq.tsx";
+import * as $$$$$$13 from "./sections/Footer.tsx";
+import * as $$$$$$14 from "./sections/Header.tsx";
+import * as $$$$$$15 from "./sections/Headers/HeaderImageWithText.tsx";
+import * as $$$$$$16 from "./sections/Headers/HeaderJob.tsx";
+import * as $$$$$$17 from "./sections/Headers/HeaderOnlyText.tsx";
+import * as $$$$$$18 from "./sections/Headers/HeaderVideoWithText.tsx";
+import * as $$$$$$19 from "./sections/Hero.tsx";
+import * as $$$$$$20 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$21 from "./sections/JobPage.tsx";
+import * as $$$$$$22 from "./sections/Logos.tsx";
+import * as $$$$$$23 from "./sections/MainPost.tsx";
+import * as $$$$$$24 from "./sections/Testimonials.tsx";
+import * as $$$$$$25 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/BlogPost.tsx": $$$$$$0,
     "site/sections/BlogPosts.tsx": $$$$$$1,
-    "site/sections/Faq.tsx": $$$$$$2,
-    "site/sections/Footer.tsx": $$$$$$3,
-    "site/sections/Header.tsx": $$$$$$4,
-    "site/sections/Hero.tsx": $$$$$$5,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$6,
-    "site/sections/Logos.tsx": $$$$$$7,
-    "site/sections/MainPost.tsx": $$$$$$8,
-    "site/sections/Testimonials.tsx": $$$$$$9,
-    "site/sections/Theme/Theme.tsx": $$$$$$10,
+    "site/sections/Contents/ContentButton.tsx": $$$$$$2,
+    "site/sections/Contents/ContentCardJob.tsx": $$$$$$3,
+    "site/sections/Contents/ContentGallery.tsx": $$$$$$4,
+    "site/sections/Contents/ContentGridClients.tsx": $$$$$$5,
+    "site/sections/Contents/ContentImage.tsx": $$$$$$6,
+    "site/sections/Contents/ContentNextPage.tsx": $$$$$$7,
+    "site/sections/Contents/ContentSwipper.tsx": $$$$$$8,
+    "site/sections/Contents/ContentText.tsx": $$$$$$9,
+    "site/sections/Contents/ContentTitle.tsx": $$$$$$10,
+    "site/sections/Contents/ContentVideo.tsx": $$$$$$11,
+    "site/sections/Faq.tsx": $$$$$$12,
+    "site/sections/Footer.tsx": $$$$$$13,
+    "site/sections/Header.tsx": $$$$$$14,
+    "site/sections/Headers/HeaderImageWithText.tsx": $$$$$$15,
+    "site/sections/Headers/HeaderJob.tsx": $$$$$$16,
+    "site/sections/Headers/HeaderOnlyText.tsx": $$$$$$17,
+    "site/sections/Headers/HeaderVideoWithText.tsx": $$$$$$18,
+    "site/sections/Hero.tsx": $$$$$$19,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$20,
+    "site/sections/JobPage.tsx": $$$$$$21,
+    "site/sections/Logos.tsx": $$$$$$22,
+    "site/sections/MainPost.tsx": $$$$$$23,
+    "site/sections/Testimonials.tsx": $$$$$$24,
+    "site/sections/Theme/Theme.tsx": $$$$$$25,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,
-    "site/apps/deco/htmx.ts": $$$$$$$$$$$1,
-    "site/apps/site.ts": $$$$$$$$$$$2,
+    "site/apps/deco/blog/loaders/Author.ts": $$$$$$$$$$$1,
+    "site/apps/deco/blog/loaders/Blogpost.ts": $$$$$$$$$$$4,
+    "site/apps/deco/blog/loaders/BlogPostItem.ts": $$$$$$$$$$$2,
+    "site/apps/deco/blog/loaders/BlogpostList.ts": $$$$$$$$$$$5,
+    "site/apps/deco/blog/loaders/BlogpostListing.ts": $$$$$$$$$$$6,
+    "site/apps/deco/blog/loaders/BlogPostPage.ts": $$$$$$$$$$$3,
+    "site/apps/deco/blog/loaders/Category.ts": $$$$$$$$$$$7,
+    "site/apps/deco/blog/loaders/GetCategories.ts": $$$$$$$$$$$8,
+    "site/apps/deco/blog/manifest.gen.ts": $$$$$$$$$$$9,
+    "site/apps/deco/blog/mod.ts": $$$$$$$$$$$10,
+    "site/apps/deco/blog/sections/Seo/SeoBlogPost.tsx": $$$$$$$$$$$11,
+    "site/apps/deco/blog/sections/Seo/SeoBlogPostListing.tsx": $$$$$$$$$$$12,
+    "site/apps/deco/blog/sections/Template.tsx": $$$$$$$$$$$13,
+    "site/apps/deco/blog/static/css.ts": $$$$$$$$$$$14,
+    "site/apps/deco/blog/types.ts": $$$$$$$$$$$15,
+    "site/apps/deco/blog/utils/constants.ts": $$$$$$$$$$$16,
+    "site/apps/deco/blog/utils/handlePosts.ts": $$$$$$$$$$$17,
+    "site/apps/deco/blog/utils/records.ts": $$$$$$$$$$$18,
+    "site/apps/deco/htmx.ts": $$$$$$$$$$$19,
+    "site/apps/site.ts": $$$$$$$$$$$20,
   },
   "name": "site",
   "baseUrl": import.meta.url,

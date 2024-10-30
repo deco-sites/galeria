@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/56c97f6e2deb",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Tendo em vista que os hábitos familiares em torno da mesa se transformaram, Gallo reconhece que a comida ainda é um elo poderoso entre as pessoas. Pesando nisso, nossa campanha buscou evidenciar como o azeite Gallo segue sendo a liga que une os alimentos na hora do preparo, no prato, na boca, mas que além disso tem a capacidade de reunir as pessoas em torno de uma refeição saborosa. Este foi o primeiro projeto criado e desenvolvido pela agência GALERIA.ag desde a conquista da conta, celebrando o legado de 100 anos da marca."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/e2d32e0e-7942-4dd7-82b5-ce06b15bed5f/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "Seara",
+        "hoverText": "Gourmet",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/35b75fd7-1d83-46a1-8add-67dd9e8795b0/capa.jpg",
+        "url": "/so-se-for-seara-gourmet"
+      }
+    ],
+    "extraProps": [],
+    "title": "Gallo, o sabor que nos une",
+    "slug": "sabor-que-nos-une",
+    "year": "2024",
+    "company": "Azeites Gallo",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/1203507c-beb4-4e41-9892-9019fbe873ba/capa.jpg"
+  }
+}
