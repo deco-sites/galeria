@@ -1,0 +1,47 @@
+{
+  "name": "collections/blog/posts/7a3495b7d488",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Para lançar seu novo posicionamento e identidade visual, o Itaú Personnalité convidou Lewis Hamilton para protagonizar a campanha “Sempre em Movimento”. Além de destacar seu trabalho duro para se manter focado e alcançar seus objetivos, o atleta faz um paralelo com os atributos do banco que sempre se mantem à frente de seu tempo, olhando para as necessidades de seus clientes."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://galeria.ag/assets/img/trabalhos/movimento-itau/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentImage.tsx",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/de9bd08b-6828-42be-a8e4-c6eaff0c5bc4/image-2.jpg",
+        "position": "Esquerda"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentImage.tsx",
+        "position": "Direita",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/c5090e4c-bf60-4c80-99d4-149f06c45a0e/image-3.jpg"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/a9afda04-7b06-4a9d-ab7e-d9f403e6f3d1/capa.jpg",
+        "text": "Itaú",
+        "hoverText": "Uniclass",
+        "url": "/trabalhos/pra-voce-chegar-la"
+      }
+    ],
+    "extraProps": [],
+    "title": "Sempre em Movimento",
+    "slug": "sempre-em-movimento",
+    "year": "2023",
+    "company": "Itaú Personnalité",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/96123adf-8cf0-4179-a9cb-df08cc7e56fc/capa.jpg",
+    "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/3ffea9b8-d130-4291-a2bb-37bdd8d0a6df/capa.mp4"
+  }
+}

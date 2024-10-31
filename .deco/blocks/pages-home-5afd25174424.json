@@ -48,26 +48,16 @@
       }
     },
     {
-      "__resolveType": "Footer"
-    },
-    {
-      "__resolveType": "site/sections/MainPost.tsx",
-      "post": {
-        "authors": [],
-        "categories": [],
-        "seo": {},
-        "extraProps": []
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "sortBy": "date_desc",
+        "slug": "trabalhos",
+        "count": 6
       }
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx",
-      "posts": [
-        {
-          "authors": [],
-          "categories": [],
-          "extraProps": []
-        }
-      ]
+      "__resolveType": "Footer"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/d55c0a60b947",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Para mostrar que a tecnologia da TOTVS está em todos os tipos de negócios e lugares, criamos uma campanha que viaja por diferentes cenários, sempre colocando o cliente como protagonista. Um verdadeiro passeio pela economia, do agronegócio até a moda, passando por educação, esporte, varejo, saúde, indústria e inclusive entretenimento, que é reforçado em cena pela jornalista Marília Gabriela.\n"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/de61c1fa-9449-4f2a-9ff2-17dc9689659e/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "Bauducco",
+        "url": "/trabalhos/bauduco-pao-de-fermentacao-natural",
+        "hoverText": "Bauducco",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/b70a4c57-62f8-4627-961b-922a1f55dbc4/capa.jpg"
+      }
+    ],
+    "extraProps": [],
+    "slug": "o-brasil-que-faz-faz-com-totvs",
+    "title": "O Brasil que faz, faz com TOTVS",
+    "year": "2024",
+    "company": "TOTVS",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/cd7344c0-da59-432f-be14-9e434eacea2e/capa.jpg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/309eace42d02",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Itaú Uniclass entrou na mídia com uma campanha voltada para quem busca realizar sonhos. O filme de lançamento mostra pessoas que estão se movimento na busca de seus objetivos. Gente que está correndo atrás de uma viagem, uma casa ou um carro. Enquanto isso, Mion aparece as incentivando, assim como Sylvester Stallone fez no movimento de reposicionamento do segmento, em setembro de 2023.\n\n"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/70a7b531-2d2b-4608-9768-afcf67d01156/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "url": "/trabalhos/mcfish-o-regresso",
+        "text": "McDonald's",
+        "hoverText": "McDonald's",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/d0d2ed5a-0cd2-47e0-b791-b86ce39218f8/capa.png"
+      }
+    ],
+    "extraProps": [],
+    "title": "Correndo ao seu lado",
+    "slug": "correndo-ao-seu-lado",
+    "year": "2024",
+    "company": "Itaú Uniclass",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/f9d52ae2-d274-4ebd-ab05-4fef7e9de7b9/capa.jpg"
+  }
+}

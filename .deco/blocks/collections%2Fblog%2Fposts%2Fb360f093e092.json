@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/b360f093e092",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "O Itaú lançou o projeto “Um Encontro Feito de Futuro”, uma iniciativa que reforça seu compromisso em criar diálogos e pontes entre gerações. Para marcar essa estreia, o banco reuniu Ronaldo Fenômeno e Carlos Alcaraz, reconhecidos pelo talento excepcional e determinação implacável que os levou ao topo de suas modalidades, deixando e construindo um importante legado para o mundo do esporte."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/c7617143-2ee0-4079-835d-dc8251ebbeb7/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "McDonald's",
+        "hoverText": "McDonald's",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/16a5da54-7b10-407a-81b9-c115c1b342c4/capa.jpg",
+        "url": "/trabalhos/helados"
+      }
+    ],
+    "extraProps": [],
+    "slug": "encontro-feito-de-futuro",
+    "title": "Encontro Feito de Futuro",
+    "year": "2024",
+    "company": "Itaú",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/6231b963-8a33-454b-aa00-837f869cf100/capa.jpeg"
+  }
+}

@@ -1,8 +1,18 @@
 import { BlogPost } from "../types.ts";
 import { CSS } from "../static/css.ts";
+import { Section } from "deco/blocks/section.ts";
 
 export interface Props {
   post: BlogPost | null;
+}
+
+// Implemente a seção
+function LoadComponent(
+  { Component, props } : Section
+) {
+  return (
+    <Component {...props} />
+  );
 }
 
 export default function Template({ post }: Props) {
@@ -10,9 +20,7 @@ export default function Template({ post }: Props) {
 
   const {
     title = "Campanha",
-    content = "Content",
-    excerpt = "Excerpt",
-    date,
+    content = [],
     image,
     alt,
   } = post;
@@ -22,16 +30,6 @@ export default function Template({ post }: Props) {
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
       <div class="deco-post-preview">
         <h1>{title}</h1>
-        <p class="text-xl">{excerpt}</p>
-        <p>
-          {date
-            ? new Date(date).toLocaleDateString("en-US", {
-              month: "long",
-              day: "numeric",
-              year: "numeric",
-            })
-            : ""}
-        </p>
         {image && (
           <img
             class="w-full rounded-2xl bg-cover"
@@ -39,7 +37,11 @@ export default function Template({ post }: Props) {
             alt={alt ?? title}
           />
         )}
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+        <div>
+          {content?.map((section) => (
+            LoadComponent(section)
+          ))}
+        </div>
       </div>
     </>
   );

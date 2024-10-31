@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/2874a4af7eac",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Como empresa líder em sustentabilidade de acordo com o ISEB3, a Vivo quer inspirar as pessoas a se engajarem com as questões ambientais. Através do conceito “o que está em jogo é o futuro do planeta”, nossa campanha foi estrelada por Rafael Nadal, embaixador da marca e um dos maiores tenistas de todos os tempos. No filme, traçamos um paralelo entre o esporte e o meio ambiente."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/7174e601-0120-4d73-acd7-b0360347bea9/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "McDonald's",
+        "hoverText": "McDonald's",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/488d060a-3e3b-441b-b8f5-48a8c6f9f745/capa.jpeg",
+        "url": "/trabalhos/mequi-fest"
+      }
+    ],
+    "extraProps": [],
+    "title": "O que está em jogo",
+    "slug": "o-que-esta-em-jogo",
+    "year": "2024",
+    "company": "Vivo",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/8ea3f987-e619-404c-a269-33bf8dc8f463/capa.jpg"
+  }
+}

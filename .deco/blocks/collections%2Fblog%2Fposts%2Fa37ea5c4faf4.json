@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/a37ea5c4faf4",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "O McDonald's e a Turma da Mônica se uniram para incentivar a leitura infantil. Na compra de um McLanche Feliz, os clientes puderam escolher livros ilustrados com histórias da Turma da Mônica. Nossa campanha foi inspirada no universo lúdico dos personagens criados pelo Maurício de Sousa, estimulando momentos de leitura entre crianças e pais."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "url": "/trabalhos/nosso-crispy-tem-o-molho",
+        "text": "McDonald’s",
+        "hoverText": "McDonald’s",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/ca1165ae-11a5-478a-857c-405ba4c0b853/capa.jpg"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/786eb6f7-ea66-4717-8fac-ee7e4d639261/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "url": "nao-vivo-sem",
+        "text": "Vivo",
+        "hoverText": "Vivo",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/07390bdc-cfc3-489d-93f1-3901380327d9/capa.jpg"
+      }
+    ],
+    "extraProps": [],
+    "company": "Méqui",
+    "title": "McLanche Feliz: Uma história puxa a outra",
+    "slug": "mclanche-feliz-uma-historia-puxa-a-outra",
+    "year": "2024",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/fc744130-e1ad-407b-86f9-0010de293330/capa.jpg"
+  }
+}

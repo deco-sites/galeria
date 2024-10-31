@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/b3e573f8279f",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "O McDonald's lançou os Quadradões de Molhos, uma nova experiência de consumo dos molhos dos icônicos Tasty e CBO. Para promover a novidade, criamos uma campanha embalada por uma paródia de funk, o 'Manda o Quadradão de Molho', que remete ao hit carioca de 2011.\n\n"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/5bef0d84-3e4b-4747-a882-84f2e8ed2680/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "url": "trabalhos/e-se-voce-sentisse-o-seu-coracao-vibrar",
+        "text": "Natura",
+        "hoverText": "Natura",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/fd87b5be-19b3-4a89-9247-4566fc71d70d/capa.jpg"
+      }
+    ],
+    "extraProps": [],
+    "slug": "quadradao-de-molho",
+    "title": "Quadradão de Molho",
+    "year": "2024",
+    "company": "McDonald's",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/05ff89b1-c6e3-4533-ae11-831e717a814c/capa.jpg"
+  }
+}

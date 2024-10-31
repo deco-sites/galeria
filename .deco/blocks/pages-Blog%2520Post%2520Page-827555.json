@@ -3,7 +3,10 @@
   "path": "/trabalhos/:slug",
   "sections": [
     {
-      "__resolveType": "site/sections/Header.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
     },
     {
       "__resolveType": "site/sections/BlogPost.tsx",
@@ -19,11 +22,15 @@
         "slug": {
           "__resolveType": "website/functions/requestToParam.ts",
           "param": "slug"
-        }
+        },
+        "post": {}
       }
     },
     {
-      "__resolveType": "site/sections/Footer.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

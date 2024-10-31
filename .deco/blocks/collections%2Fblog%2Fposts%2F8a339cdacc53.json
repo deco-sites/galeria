@@ -1,0 +1,51 @@
+{
+  "name": "collections/blog/posts/8a339cdacc53",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "A Natura apresentou ao público da novela Todas as Flores o novo Natura Essencial Ato, fragrância cocriada com a protagonista da trama. Uma parceria inédita que proporcionou à marca estar inserida no enredo principal da novela e transcender as telas da ficção para o mundo real. O projeto foi reconhecido pelo prêmio Profissionais do Ano como Melhor Ação de Conteúdo."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentImage.tsx",
+        "position": "Esquerda",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/19f0d2ff-6d48-4b99-a8de-5f4846180186/image-2.jpg"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentImage.tsx",
+        "position": "Direita",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/b05880a7-cd72-4761-8ea8-b6339ccdb376/image-3.jpg"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentImage.tsx",
+        "position": "Esquerda",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/23817d7b-af57-4a3b-bf23-9ff3fae425fd/image-4.jpg"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "url": "/trabalhos/mclanche-feliz-uma-historia-puxa-a-outra",
+        "text": "Méqui",
+        "hoverText": "Méqui",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/fc744130-e1ad-407b-86f9-0010de293330/capa.jpg"
+      }
+    ],
+    "extraProps": [],
+    "slug": "todas-as-flores",
+    "title": "Todas as Flores",
+    "year": "2022",
+    "company": "Natura",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/b3624d9d-9a66-42c7-8dd9-b2821b9ccbfd/capa.jpg",
+    "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/bbcc241c-b7a3-42cf-bb74-0100c293baa3/capa.mp4"
+  }
+}

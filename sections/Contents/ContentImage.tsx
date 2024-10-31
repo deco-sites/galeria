@@ -1,6 +1,8 @@
+import { JSX } from "preact";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
+export type ContentImage = JSX.Element;
 export interface Props {
 
     /**
@@ -14,7 +16,7 @@ export interface Props {
 
 }
 
-export default function Section({
+export default function ContentImageSection({
     image = '',
     position = "Esquerda"
 }: Props) {

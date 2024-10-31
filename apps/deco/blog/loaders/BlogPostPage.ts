@@ -1,3 +1,7 @@
+import ContentTextSection from "../../../../sections/Contents/ContentText.tsx";
+import ContentVideoSection from "../../../../sections/Contents/ContentVideo.tsx";
+import ContentNextPageSection from "../../../../sections/Contents/ContentNextPage.tsx";
+import ContentImageSection from "../../../../sections/Contents/ContentImage.tsx";
 import { AppContext } from "../mod.ts";
 import { BlogPost, BlogPostPage } from "../types.ts";
 import { getRecordsByPath } from "../utils/records.ts";
@@ -9,6 +13,36 @@ const ACCESSOR = "post";
 export interface Props {
   slug: RequestURLParam;
 }
+
+export const preview = (content) => {
+
+  var component;
+
+  switch (content.__resolveType) {
+    case 'site/sections/Contents/ContentText.tsx':
+      component = ContentTextSection
+      break;
+    case 'site/sections/Contents/ContentVideo.tsx':
+      component = ContentVideoSection
+      break;
+    case 'site/sections/Contents/ContentNextPage.tsx':
+      component = ContentNextPageSection
+      break;
+    case 'site/sections/Contents/ContentImage.tsx':
+      component = ContentImageSection
+      break;
+  
+    default:
+      break;
+  }
+
+  return {
+    Component: component,
+    props: {
+      ...content
+    },
+  };
+};
 
 /**
  * @title BlogPostPage
@@ -41,10 +75,15 @@ export default async function BlogPostPageLoader(
 
   return {
     "@type": "BlogPostPage",
-    post,
+    post: {
+      ...post,
+      content: post.content.map(content => {
+        return preview(content)
+      })
+    },
     seo: {
       title: post?.seo?.title || post?.title,
-      description: post?.seo?.description || post?.excerpt,
+      description: post?.seo?.description,
       canonical: post?.seo?.canonical || url.href,
       image: post?.seo?.image || post?.image,
       noIndexing: post?.seo?.noIndexing || false,

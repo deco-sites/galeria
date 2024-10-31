@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/b52af5b3be8e",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Para marcar o retorno da Piscininha de Cheddar ao cardápio do McDonald's, lançamos uma campanha repleta de indulgência e appetite appeal. Sob o conceito “Cheddarize-se”, convidamos o consumidor a se aventurar nas mais diversas possibilidades e combinações para curtir um dos ingredientes mais amados da rede: o molho tipo cheddar. No filme, até uma cascata de queijo entra em cena para intensificar o desejo de quem assiste."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/c70d0f3e-bf78-4b9e-a262-be466e13d10f/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "Itaú",
+        "hoverText": "Personnalité",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/ce3f2c12-e31b-4232-b49d-f7319a8ed41b/capa.jpeg",
+        "url": "/trabalhos/personnalite-open"
+      }
+    ],
+    "extraProps": [],
+    "title": "Cheddarize-se",
+    "slug": "cheddarize-se",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/eb80e9f8-fba5-46a4-a2fa-cb390afd5fe9/capa.png",
+    "year": "2024",
+    "company": "McDonald's"
+  }
+}

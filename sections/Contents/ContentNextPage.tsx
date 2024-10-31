@@ -1,6 +1,8 @@
+import { JSX } from "preact";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
+export type ContentNextPage = JSX.Element;
 export interface Props {
     /**
      * @title Texto
@@ -20,7 +22,7 @@ export interface Props {
     url: string
 }
 
-export default function Section({
+export default function ContentNextPageSection({
     text = '',
     hoverText = '',
     image = '',
@@ -28,7 +30,7 @@ export default function Section({
 }: Props) {
     return (
         <section>
-
+            
         </section>
     )
 }

@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/f7e55cbf7209",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Internet que pega até no closet? Eu não vivo sem! Protagonizada por Taís Araújo, a campanha da Vivo destacou a capacidade da fibra + Wi-Fi 6 com alta cobertura de conexão e velocidade. Aproveite todo potencial tecnológico do plano Vivo Total em sua casa."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/a979674c-f5d0-4464-b5db-f52a2cdc1eff/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "Itaú",
+        "hoverText": "Itaú",
+        "url": "/trabalhos/encontro-feito-de-futuro",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/6231b963-8a33-454b-aa00-837f869cf100/capa.jpeg"
+      }
+    ],
+    "extraProps": [],
+    "title": "Não vivo sem",
+    "slug": "nao-vivo-sem",
+    "year": "2024",
+    "company": "Vivo",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/07390bdc-cfc3-489d-93f1-3901380327d9/capa.jpg"
+  }
+}

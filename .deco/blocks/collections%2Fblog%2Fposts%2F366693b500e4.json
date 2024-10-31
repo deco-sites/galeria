@@ -1,0 +1,37 @@
+{
+  "name": "collections/blog/posts/366693b500e4",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Muita gente fala com o Mion, mas o Itaú Uniclass fala com o Marcos. E para mostrar que o banco é o maior aliado dos clientes durante suas jornadas, recriamos uma das cenas mais icônicas do cinema ao registrar Marcos encontrando Sylvester Stallone no topo de uma escada. “Itaú Uniclass. Pra você chegar lá”. Eleita a Campanha do Ano pelo PROPMARK e uma das melhores campanhas de 2023 pelo Meio & Mensagem.\n\n"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/b29a18e9-0f42-43fa-a94c-dccf2e5ff760/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentImage.tsx",
+        "position": "Esquerda",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/61ae3cbe-410a-4ce8-9663-48e90d3cf201/image-3.jpg"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "Méqui",
+        "hoverText": "Méqui",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/6a90a4b8-574d-4a65-8bd7-6ba7874fe021/capa.jpg",
+        "url": "/trabalhos/te-pega"
+      }
+    ],
+    "extraProps": [],
+    "slug": "pra-voce-chegar-la",
+    "title": "Pra você chegar lá",
+    "year": "2023",
+    "company": "Itaú Uniclass",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/a9afda04-7b06-4a9d-ab7e-d9f403e6f3d1/capa.jpg",
+    "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/d36deabc-ac0f-40a0-b710-3357052a3926/capa.mp4"
+  }
+}

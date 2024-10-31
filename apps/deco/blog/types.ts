@@ -29,6 +29,12 @@ export interface Category {
 
 export interface BlogPost {
   /**
+   * @title Categorias
+   * @widget blog
+   * @collection categories
+   */
+  categories: Category[];
+  /**
    * @title Título da Campanha
    */
   title: string;
@@ -53,12 +59,6 @@ export interface BlogPost {
    * @title Vídeo de Capa
    */
   video?: VideoWidget;
-  /**
-   * @title Categorias
-   * @widget blog
-   * @collection categories
-   */
-  categories: Category[];
   /**
    * @title Conteúdo
    */

@@ -1,9 +1,13 @@
+import { JSX } from "preact";
+
+export type ContentText = JSX.Element;
 export interface Props {
     /**
      * @title Tipo de Texto
      * @description Selecione o tipo de conteúdo
+     * @default Parágrafo
      */
-    type: "Título" | "Parágrafo";
+    type: "Parágrafo" | "Título";
   /**
    * @title Texto
    * @description Escreva aqui o seu conteúdo
@@ -12,10 +16,10 @@ export interface Props {
   content: string;
 }
 
-export default function Section({ 
+export default function ContentTextSection({ 
   content = "", 
   type = "Parágrafo",
-}: Props) {
+}: Props): ContentText {
 
   return (
     <div>

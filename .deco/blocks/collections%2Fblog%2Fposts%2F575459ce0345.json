@@ -1,0 +1,32 @@
+{
+  "name": "collections/blog/posts/575459ce0345",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "A Bauducco reforçou sua expertise em Fermentação Natural com uma grande campanha para a linha de Pães. Ao som da poderosa ópera italiana “Nessun Dorma”, a produção explorou o apelo irresistível dos ingredientes e do pão quentinho saindo do forno, pronto para ser apreciado. E como parte da estratégia de Influência, convidamos a atriz e apresentadora Tatá Werneck para recriar um de seus memes mais icônicos: “é pães ou pões?”."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "Itaú",
+        "url": "/trabalhos/saques-do-futuro",
+        "hoverText": "Itaú",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/6da9fd38-6fae-41c4-950f-4e0c27ca752d/capa.jpg"
+      }
+    ],
+    "extraProps": [],
+    "slug": "bauduco-pao-de-fermentacao-natural",
+    "title": "Bauducco Pão de Fermentação Natural",
+    "year": "2024",
+    "company": "Bauducco",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/b70a4c57-62f8-4627-961b-922a1f55dbc4/capa.jpg"
+  }
+}

@@ -47,8 +47,9 @@ import * as $$$$$$20 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$21 from "./sections/JobPage.tsx";
 import * as $$$$$$22 from "./sections/Logos.tsx";
 import * as $$$$$$23 from "./sections/MainPost.tsx";
-import * as $$$$$$24 from "./sections/Testimonials.tsx";
-import * as $$$$$$25 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$24 from "./sections/MySection.tsx";
+import * as $$$$$$25 from "./sections/Testimonials.tsx";
+import * as $$$$$$26 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -76,8 +77,9 @@ const manifest = {
     "site/sections/JobPage.tsx": $$$$$$21,
     "site/sections/Logos.tsx": $$$$$$22,
     "site/sections/MainPost.tsx": $$$$$$23,
-    "site/sections/Testimonials.tsx": $$$$$$24,
-    "site/sections/Theme/Theme.tsx": $$$$$$25,
+    "site/sections/MySection.tsx": $$$$$$24,
+    "site/sections/Testimonials.tsx": $$$$$$25,
+    "site/sections/Theme/Theme.tsx": $$$$$$26,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

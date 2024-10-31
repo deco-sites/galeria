@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/524b4baf719a",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "A Méqui Fest é o festival de descontos exclusivos do McDonald's para os apaixonados por hambúrguer, McFritas, sobremesas e afins. Quase como uma Black Friday fora de época. E a nossa campanha trouxe um paralelo entre o real e o lúdico para demostrar que as vantagens são imperdíveis para quem faz parte do programa de fidelidade do Méqui."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/dd79665e-717a-4f9a-bf2b-9afa4d1af273/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "url": "/trabalhos/correndo-ao-seu-lado",
+        "text": "Itaú",
+        "hoverText": "Uniclass",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/f9d52ae2-d274-4ebd-ab05-4fef7e9de7b9/capa.jpg"
+      }
+    ],
+    "extraProps": [],
+    "slug": "mequi-fest",
+    "title": "Méqui Fest",
+    "year": "2024",
+    "company": "McDonald's",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/488d060a-3e3b-441b-b8f5-48a8c6f9f745/capa.jpeg"
+  }
+}

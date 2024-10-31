@@ -1,0 +1,42 @@
+{
+  "name": "collections/blog/posts/ee977fcb82d6",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Sabe quando você sente aquele cheirinho de Big Mac perto de você ou quando vê uma embalagem de McFritas e dispara aquela vontade irresistível de comer um Méqui? Acontece com todo mundo. “Quando um Méqui te pega, pega um Méqui”. A Campanha conquistou o prêmio Profissionais do Ano, na categoria Melhor Campanha Nacional.\n\n"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentImage.tsx",
+        "position": "Esquerda",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/42523daf-bdac-4ba7-a22b-9e760dcb737e/image-3.png"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentImage.tsx",
+        "position": "Direita",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/d2ad4bbf-b30e-459b-a503-12e59e10a93e/image-4.png"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "Natura",
+        "hoverText": "Natura",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/b3624d9d-9a66-42c7-8dd9-b2821b9ccbfd/capa.jpg",
+        "url": "/trabalhos/todas-as-flores"
+      }
+    ],
+    "extraProps": [],
+    "slug": "te-pega",
+    "title": "Te Pega",
+    "year": "2024",
+    "company": "Méqui",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/6a90a4b8-574d-4a65-8bd7-6ba7874fe021/capa.jpg"
+  }
+}

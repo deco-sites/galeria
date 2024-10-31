@@ -71,7 +71,7 @@ export default function BlogPosts(
         <div class="gap-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
           {posts?.slice(from, to).map((post) => (
             <a
-              href={`/blog/${post.slug}`}
+              href={`/trabalhos/${post.slug}`}
               class="border border-secondary overflow-hidden rounded-lg"
             >
               <Image

@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/baec3efa5da7",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Fizemos uma viagem até o Alasca para buscar o ingrediente especial do McFish. O projeto de entretenimento apresenta uma série de 4 episódios, onde três McFish Lovers tem a missão de trazer o icônico sanduíche de volta para o Brasil."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/af21d317-9ae7-46f1-acdf-29a8e12eec1c/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "url": "/trabalhos/o-brasil-que-faz-faz-com-totvs",
+        "text": "TOTVS",
+        "hoverText": "TOTVS",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/cd7344c0-da59-432f-be14-9e434eacea2e/capa.jpg"
+      }
+    ],
+    "extraProps": [],
+    "company": "McDonald's",
+    "year": "2024",
+    "slug": "mcfish-o-regresso",
+    "title": "McFish: o regresso",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/d0d2ed5a-0cd2-47e0-b791-b86ce39218f8/capa.png"
+  }
+}

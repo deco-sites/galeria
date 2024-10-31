@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/fb6fada1df4e",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "type": "Parágrafo",
+        "content": "Criamos uma campanha para promover os benefícios de ser um cliente Personnalité e as facilidades do app. O objetivo foi mostrar que o Itaú Personnalité tem um portfólio de produtos supercompleto, que não limita o cliente a escolher entre um benefício ou outro. E, no mundo do tênis, encontramos analogias que se encaixam perfeitamente nesse objetivo. Para gravar os 14 filmes da campanha, estruturamos uma quadra com tamanho oficial de alto padrão."
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/0fac1ac0-3bb8-4f0a-9387-95c151a887b3/filme.mp4"
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
+        "text": "McDonald's",
+        "hoverText": "McDonald's",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/05ff89b1-c6e3-4533-ae11-831e717a814c/capa.jpg",
+        "url": "/trabalhos/quadradao-de-molho"
+      }
+    ],
+    "extraProps": [],
+    "slug": "personnalite-open",
+    "title": "Personnalité Open",
+    "year": "2024",
+    "company": "Itaú Personnalité",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/ce3f2c12-e31b-4232-b49d-f7319a8ed41b/capa.jpeg"
+  }
+}

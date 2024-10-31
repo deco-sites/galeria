@@ -1,0 +1,48 @@
+{
+  "name": "My New Page",
+  "path": "/example-path",
+  "sections": [
+    {
+      "__resolveType": "site/sections/MySection.tsx",
+      "myProp": [
+        {
+          "__resolveType": "site/sections/Contents/ContentText.tsx",
+          "type": "Parágrafo",
+          "content": "mnkjkjh",
+          "myProp": {
+            "__resolveType": "site/sections/Contents/ContentText.tsx",
+            "type": "Título",
+            "content": "aslkdalskdjnb"
+          },
+          "section": [
+            {
+              "__resolveType": "site/sections/Contents/ContentText.tsx",
+              "type": "Parágrafo",
+              "content": "jkhkjhkj"
+            }
+          ]
+        }
+      ],
+      "title": "exemplo",
+      "sections": [
+        {
+          "__resolveType": "site/sections/Hero.tsx",
+          "placement": "left",
+          "cta": [],
+          "title": "<p>ksjdflsjdflksjf</p>",
+          "description": "werwerwer",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/eb80e9f8-fba5-46a4-a2fa-cb390afd5fe9/capa.png"
+        },
+        {
+          "__resolveType": "site/sections/Contents/ContentText.tsx",
+          "type": "Parágrafo",
+          "content": "kjhkhjjkhk"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
