@@ -10,13 +10,22 @@ export interface Props {
      * @title Vídeo
      */
     video: VideoWidget,
-
 }
 
 export default function ContentVideoSection({
-    video = '',
+    video,
 }: Props) {
     return (
-        <section></section>
+        <section className="w-full bg-black">
+            <div className="pt-[80px] w-full">
+                <Video 
+                    src={video} 
+                    width={100}
+                    height={100}
+                    controls
+                    className="w-full h-auto object-cover" 
+                />
+            </div>
+        </section>
     )
 }

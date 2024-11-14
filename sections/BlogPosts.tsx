@@ -11,8 +11,7 @@ export interface CTA {
 export interface Post {
   url?: string;
   title?: string;
-  author?: string;
-  excerpt?: string;
+  company?: string;
   image?: ImageWidget;
   date?: string;
   readingTime?: string;
@@ -35,9 +34,11 @@ function Container({ children }: {
   children: ComponentChildren;
 }) {
   return (
-    <div class="container lg:mx-auto lg:py-14 mx-2 py-12 text-sm">
-      <div class="space-y-8">{children}</div>
-    </div>
+    <section className="w-full bg-black">
+      <div class="container pt-[80px] lg:mx-auto text-sm">
+        <div class="space-y-8">{children}</div>
+      </div>
+    </section>
   );
 }
 export default function BlogPosts(
@@ -68,54 +69,59 @@ export default function BlogPosts(
   return (
     <ContainerComponent>
       <>
-        <div class="gap-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
-          {posts?.slice(from, to).map((post) => (
-            <a
-              href={`/trabalhos/${post.slug}`}
-              class="border border-secondary overflow-hidden rounded-lg"
-            >
-              <Image
-                width={380}
-                height={274}
-                class="object-fit w-full"
-                sizes="(max-width: 640px) 100vw, 30vw"
-                src={post.image || ""}
-                alt={post.image}
-                decoding="async"
-                loading="lazy"
-              />
-              <div class="p-6 space-y-4">
-                <div class="space-y-2">
-                  <h3 class="text-2xl">{post.title}</h3>
-                  <p class="text-base">{post.excerpt}</p>
-                </div>
-                <div class="flex flex-wrap gap-2">
-                  {post.categories?.map((category) => (
-                    <div class="badge badge-lg badge-primary text-xs">
-                      {category.name}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </a>
-          ))}
-        </div>
-        {posts && to < posts.length && (
-          <div class="flex justify-center w-full" id={postList}>
-            <button
-              hx-get={fetchMoreLink}
-              hx-swap="outerHTML"
-              hx-target={`#${postList}`}
-              aria-label={cta.text}
-              class="btn btn-primary"
-            >
-              <span class="inline [.htmx-request_&]:hidden">
-                {cta.text}
-              </span>
-              <span class="loading loading-spinner hidden [.htmx-request_&]:block" />
-            </button>
+        <section className="container !px-2 !md:px-0">
+          <div class="w-full gap-8 grid grid-cols-1">
+              {posts?.slice(from, to).map((post) => (
+                  <a
+                      href={`/trabalhos/${post.slug}`}
+                      class="relative overflow-hidden"
+                  >
+                      <Image
+                          width={380}
+                          height={274}
+                          class="object-cover w-full h-full"
+                          sizes="(max-width: 640px) 100vw, 30vw"
+                          src={post.image || ""}
+                          alt={post.image}
+                          decoding="async"
+                          loading="lazy"
+                      />
+
+
+                      <div class="pl-[8%] pb-[8%] absolute inset-0 flex flex-col justify-end text-white">
+                          <div class="">
+                              <h3 class="font-helvetica text-dynamic font-semibold text-white">{post.title}</h3>
+                              <div className="hidden mt-2">
+                                <p class="text-base text-responsive">{post.company}</p>
+                              </div>
+                          </div>
+                          {/* <div class="flex flex-wrap gap-2 mt-4">
+                              {post.categories?.map((category) => (
+                                  <div class="badge badge-lg badge-primary text-xs">
+                                      {category.name}
+                                  </div>
+                              ))}
+                          </div> */}
+                      </div>
+                  </a>
+              ))}
+
+              {posts && to < posts.length && (
+                  <div class="flex justify-center w-full" id={postList}>
+                      <button
+                          hx-get={fetchMoreLink}
+                          hx-swap="outerHTML"
+                          hx-target={`#${postList}`}
+                          aria-label={cta.text}
+                          class="btn btn-primary"
+                      >
+                          <span class="inline [.htmx-request_&]:hidden">{cta.text}</span>
+                          <span class="loading loading-spinner hidden [.htmx-request_&]:block" />
+                      </button>
+                  </div>
+              )}
           </div>
-        )}
+        </section>
       </>
     </ContainerComponent>
   );

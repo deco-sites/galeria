@@ -27,29 +27,31 @@ import * as $$$$$$0 from "./sections/BlogPost.tsx";
 import * as $$$$$$1 from "./sections/BlogPosts.tsx";
 import * as $$$$$$2 from "./sections/Contents/ContentButton.tsx";
 import * as $$$$$$3 from "./sections/Contents/ContentCardJob.tsx";
-import * as $$$$$$4 from "./sections/Contents/ContentGallery.tsx";
-import * as $$$$$$5 from "./sections/Contents/ContentGridClients.tsx";
-import * as $$$$$$6 from "./sections/Contents/ContentImage.tsx";
-import * as $$$$$$7 from "./sections/Contents/ContentNextPage.tsx";
-import * as $$$$$$8 from "./sections/Contents/ContentSwipper.tsx";
-import * as $$$$$$9 from "./sections/Contents/ContentText.tsx";
-import * as $$$$$$10 from "./sections/Contents/ContentTitle.tsx";
-import * as $$$$$$11 from "./sections/Contents/ContentVideo.tsx";
-import * as $$$$$$12 from "./sections/Faq.tsx";
-import * as $$$$$$13 from "./sections/Footer.tsx";
-import * as $$$$$$14 from "./sections/Header.tsx";
-import * as $$$$$$15 from "./sections/Headers/HeaderImageWithText.tsx";
-import * as $$$$$$16 from "./sections/Headers/HeaderJob.tsx";
-import * as $$$$$$17 from "./sections/Headers/HeaderOnlyText.tsx";
-import * as $$$$$$18 from "./sections/Headers/HeaderVideoWithText.tsx";
-import * as $$$$$$19 from "./sections/Hero.tsx";
-import * as $$$$$$20 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$21 from "./sections/JobPage.tsx";
-import * as $$$$$$22 from "./sections/Logos.tsx";
-import * as $$$$$$23 from "./sections/MainPost.tsx";
-import * as $$$$$$24 from "./sections/MySection.tsx";
-import * as $$$$$$25 from "./sections/Testimonials.tsx";
-import * as $$$$$$26 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$4 from "./sections/Contents/ContentDescription.tsx";
+import * as $$$$$$5 from "./sections/Contents/ContentGallery.tsx";
+import * as $$$$$$6 from "./sections/Contents/ContentGridClients.tsx";
+import * as $$$$$$7 from "./sections/Contents/ContentImage.tsx";
+import * as $$$$$$8 from "./sections/Contents/ContentNextPage.tsx";
+import * as $$$$$$9 from "./sections/Contents/ContentSwipper.tsx";
+import * as $$$$$$10 from "./sections/Contents/ContentText.tsx";
+import * as $$$$$$11 from "./sections/Contents/ContentTitle.tsx";
+import * as $$$$$$12 from "./sections/Contents/ContentVideo.tsx";
+import * as $$$$$$13 from "./sections/Faq.tsx";
+import * as $$$$$$14 from "./sections/Footer.tsx";
+import * as $$$$$$15 from "./sections/Header.tsx";
+import * as $$$$$$16 from "./sections/Headers/HeaderImageWithText.tsx";
+import * as $$$$$$17 from "./sections/Headers/HeaderJob.tsx";
+import * as $$$$$$18 from "./sections/Headers/HeaderOnlyText.tsx";
+import * as $$$$$$19 from "./sections/Headers/HeaderOnlyTextToWork.tsx";
+import * as $$$$$$20 from "./sections/Headers/HeaderVideoWithText.tsx";
+import * as $$$$$$21 from "./sections/Hero.tsx";
+import * as $$$$$$22 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$23 from "./sections/JobPage.tsx";
+import * as $$$$$$24 from "./sections/Logos.tsx";
+import * as $$$$$$25 from "./sections/MainPost.tsx";
+import * as $$$$$$26 from "./sections/MySection.tsx";
+import * as $$$$$$27 from "./sections/Testimonials.tsx";
+import * as $$$$$$28 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -57,29 +59,31 @@ const manifest = {
     "site/sections/BlogPosts.tsx": $$$$$$1,
     "site/sections/Contents/ContentButton.tsx": $$$$$$2,
     "site/sections/Contents/ContentCardJob.tsx": $$$$$$3,
-    "site/sections/Contents/ContentGallery.tsx": $$$$$$4,
-    "site/sections/Contents/ContentGridClients.tsx": $$$$$$5,
-    "site/sections/Contents/ContentImage.tsx": $$$$$$6,
-    "site/sections/Contents/ContentNextPage.tsx": $$$$$$7,
-    "site/sections/Contents/ContentSwipper.tsx": $$$$$$8,
-    "site/sections/Contents/ContentText.tsx": $$$$$$9,
-    "site/sections/Contents/ContentTitle.tsx": $$$$$$10,
-    "site/sections/Contents/ContentVideo.tsx": $$$$$$11,
-    "site/sections/Faq.tsx": $$$$$$12,
-    "site/sections/Footer.tsx": $$$$$$13,
-    "site/sections/Header.tsx": $$$$$$14,
-    "site/sections/Headers/HeaderImageWithText.tsx": $$$$$$15,
-    "site/sections/Headers/HeaderJob.tsx": $$$$$$16,
-    "site/sections/Headers/HeaderOnlyText.tsx": $$$$$$17,
-    "site/sections/Headers/HeaderVideoWithText.tsx": $$$$$$18,
-    "site/sections/Hero.tsx": $$$$$$19,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$20,
-    "site/sections/JobPage.tsx": $$$$$$21,
-    "site/sections/Logos.tsx": $$$$$$22,
-    "site/sections/MainPost.tsx": $$$$$$23,
-    "site/sections/MySection.tsx": $$$$$$24,
-    "site/sections/Testimonials.tsx": $$$$$$25,
-    "site/sections/Theme/Theme.tsx": $$$$$$26,
+    "site/sections/Contents/ContentDescription.tsx": $$$$$$4,
+    "site/sections/Contents/ContentGallery.tsx": $$$$$$5,
+    "site/sections/Contents/ContentGridClients.tsx": $$$$$$6,
+    "site/sections/Contents/ContentImage.tsx": $$$$$$7,
+    "site/sections/Contents/ContentNextPage.tsx": $$$$$$8,
+    "site/sections/Contents/ContentSwipper.tsx": $$$$$$9,
+    "site/sections/Contents/ContentText.tsx": $$$$$$10,
+    "site/sections/Contents/ContentTitle.tsx": $$$$$$11,
+    "site/sections/Contents/ContentVideo.tsx": $$$$$$12,
+    "site/sections/Faq.tsx": $$$$$$13,
+    "site/sections/Footer.tsx": $$$$$$14,
+    "site/sections/Header.tsx": $$$$$$15,
+    "site/sections/Headers/HeaderImageWithText.tsx": $$$$$$16,
+    "site/sections/Headers/HeaderJob.tsx": $$$$$$17,
+    "site/sections/Headers/HeaderOnlyText.tsx": $$$$$$18,
+    "site/sections/Headers/HeaderOnlyTextToWork.tsx": $$$$$$19,
+    "site/sections/Headers/HeaderVideoWithText.tsx": $$$$$$20,
+    "site/sections/Hero.tsx": $$$$$$21,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$22,
+    "site/sections/JobPage.tsx": $$$$$$23,
+    "site/sections/Logos.tsx": $$$$$$24,
+    "site/sections/MainPost.tsx": $$$$$$25,
+    "site/sections/MySection.tsx": $$$$$$26,
+    "site/sections/Testimonials.tsx": $$$$$$27,
+    "site/sections/Theme/Theme.tsx": $$$$$$28,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

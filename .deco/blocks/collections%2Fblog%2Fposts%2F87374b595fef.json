@@ -9,7 +9,9 @@
         "slug": "trabalhos"
       }
     ],
-    "extraProps": [],
+    "extraProps": [
+      {}
+    ],
     "title": "Helados",
     "year": "2024",
     "company": "McDonald's",
@@ -32,6 +34,9 @@
         "url": "/trabalhos/sabor-que-nos une"
       }
     ],
-    "slug": "helados"
+    "slug": "helados",
+    "seo": {
+      "noIndexing": false
+    }
   }
 }

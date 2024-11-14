@@ -1,3 +1,21 @@
 {
-  "__resolveType": "site/sections/Footer.tsx"
+  "__resolveType": "site/sections/Footer.tsx",
+  "address": {
+    "street": "Rua Mourato Coelho, 1.404",
+    "complement": "5º e 7º andares,",
+    "state": "São Paulo - SP",
+    "zipCode": "| CEP: 05417-002",
+    "contact": "55 11 4765 7090"
+  },
+  "socialMedia": [
+    {
+      "iconShare": [
+        null
+      ],
+      "icon": [],
+      "text": "Nossas Redes"
+    }
+  ],
+  "backOnTop": "Voltar ao Topo",
+  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/85157ca0-7b68-4636-9a93-e13810ceb245/logo_icon.png"
 }

@@ -22,10 +22,28 @@ export interface Props {
     clients: Client[]
 }
 
+
 export default function Section({
-    clients: []
+    clients,
 }: Props) {
     return (
-        <section></section>
+        <section className="bg-black">
+            <div className="container">
+                <div className="px-[15px] md:pt-[150px] w-full grid grid-cols-2 md:grid-cols-5 gap-0 bg-black">
+                    {clients.map((client) => (
+                        <div key={client.name} className="w-fit border border-solid border-dark-charcoal">
+                            <Image
+                            src={client.logo || ""}
+                            alt={client.name}
+                            width={100}
+                            className="w-full h-full"
+                            loading="lazy"
+                            decoding="async"
+                            />
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
     )
 }

@@ -31,6 +31,8 @@ const DEFAULT_PROPS: BlogPost = {
     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9",
   slug: "blog-post",
   content: [],
+  company: '',
+  year: ''
 };
 
 // Implemente a seção
@@ -65,43 +67,59 @@ function SocialIcons() {
 
 export default function BlogPost({ page }: Props) {
 
-  const { title, image, content } = page?.post || DEFAULT_PROPS;
+  const { title, image, content, year, company } = page?.post || DEFAULT_PROPS;
 
   return (
-    <section>
-      <div className="w-full flex flex-col gap-20 container mx-auto px-4 md:px-0 py-12 lg:py-28">
-        <div className="w-full flex flex-col gap-12 max-w-3xl lg:mx-auto">
-          <h1 className="text-5xl font-bold">{title}</h1>
-        </div>
-        <Image
-          className="w-full object-cover aspect-video max-h-[600px] rounded-2xl"
-          width={600}
+    <section className="w-full bg-black">
+      <div className=" w-full h-full bg-black">
+      <Image
           src={image || ""}
+          width={100}
+          className="w-full h-35rem md:h-full object-cover"
+
         />
-        <div>
-          {content?.map((section) => (
-            LoadComponent(section)
-          ))}
-        </div>
-        <div class="flex flex-col gap-10 max-w-3xl w-full mx-auto">
-          <div class="space-y-4">
-            <p class="text-lg font-bold">Share this post</p>
-            <div class="flex flex-col gap-8 md:flex-row justify-between">
-              <SocialIcons />
-              <div class="flex gap-2 text-white text-xs">
-                <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
-                  Tag #1
-                </p>
-                <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
-                  Tag #2
-                </p>
-                <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
-                  Tag #3
-                </p>
+        <div className="container py-[5%] absolute inset-0 flex items-center justify-start box-border">
+          <div className="pl-[8%] flex flex-col">
+            <p className="text-4.5vw font-helvetica font-bold text-white uppercase">{title}</p>
+            <div className="mt-[25px] md:mt-[5px] flex flex-col md:flex-row md:gap-x-[25px] gap-y-[25px]">
+              <div className="pr-[30px] grid gap-y-[15px] md:gap-y-[5px] h-full border-r border-gray-border">
+                <p className="text-dynamic-work font-helvetica leading-tight-22 text-white opacity-7">Cliente</p>
+                <p className="text-dynamic-work font-helvetica text-white">{company}</p>
+              </div>
+              <div className="grid gap-y-[15px] md:gap-y-[5px]">
+                <p className="text-dynamic-work font-helvetica leading-tight-22 text-white opacity-7">Ano</p>
+                <p className="text-dynamic-work font-helvetica leading-tight-22 text-white">{year}</p>
               </div>
             </div>
           </div>
         </div>
+        <div>
+          <div className="container !px-[15px] pt-[260px] grid gap-y-[30px] border-box">
+            <p className="text-[26px] font-helvetica font-normal leading-tight-36 text-white opacity-7">{title}</p>
+            {content?.map((section) => (
+              LoadComponent(section)
+            ))}
+          </div>
+        </div>
+        {/* <div class="flex flex-col gap-10 max-w-3xl w-full mx-auto">
+          <div class="space-y-4">
+            <p class="text-lg font-bold"></p>
+            <div class="flex flex-col gap-8 md:flex-row justify-between">
+              <SocialIcons />
+              <div class="flex gap-2 text-white text-xs">
+                <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
+                  
+                </p>
+                <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
+                  
+                </p>
+                <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> */}
       </div>
     </section>
   );

@@ -52,9 +52,10 @@
       "posts": {
         "__resolveType": "blog/loaders/BlogpostList.ts",
         "sortBy": "date_desc",
-        "slug": "trabalhos",
-        "count": 6
-      }
+        "count": 6,
+        "slug": "trabalhos"
+      },
+      "cta": {}
     },
     {
       "__resolveType": "Footer"

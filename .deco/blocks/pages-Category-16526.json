@@ -6,6 +6,14 @@
       "__resolveType": "Header"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/HeaderOnlyTextToWork.tsx",
+        "description": "TRANSFORMANDO NEGÓCIOS POR MEIO DA CRIATIVIDADE",
+        "title": "Últimos Trabalhos"
+      }
+    },
+    {
       "__resolveType": "site/sections/BlogPosts.tsx",
       "posts": {
         "__resolveType": "blog/loaders/BlogpostList.ts",
