@@ -20,8 +20,16 @@ export interface Post {
 export interface Props {
   cta?: CTA;
   posts?: BlogPost[] | null;
+  pagination?: {
+    /**
+     * @title First page
+     * @description Leave it as 0 to start from the first page
+     */
+    page?: number;
+    /** @title items per page */
+    perPage?: number;
+  };
 }
-
 function Container({ children }: {
   children: ComponentChildren;
 }) {
@@ -35,7 +43,7 @@ function Container({ children }: {
 }
 export default function BlogPosts(
   {
-    cta = { text: "Ver Mais" },
+    cta = { text: "Show more" },
     posts,
     pagination: { page = 0, perPage = 6 } = {},
   }: Props,
@@ -51,7 +59,12 @@ export default function BlogPosts(
       pagination: { perPage, page: page + 1 },
     },
   });
-  
+  function calculateReadingTime(words: number): string {
+    const wordsPerMinute = 250;
+    const estimatedTimeMinutes = words / wordsPerMinute;
+    const roundedReadingTime = Math.round(estimatedTimeMinutes);
+    return `${roundedReadingTime} min`;
+  }
   const ContainerComponent = page === 0 ? Container : Fragment;
   return (
     <ContainerComponent>

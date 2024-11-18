@@ -127,8 +127,8 @@ const setup = ({ rootId, scroll, interval, infinite }: Props) => {
   for (let it = 0; it < (dots?.length ?? 0); it++) {
     dots?.item(it).addEventListener("click", () => goToItem(it));
   }
-  prev?.addEventListener("click", onClickPrev);
-  next?.addEventListener("click", onClickNext);
+  prev?.addEventListener("mouseenter", onClickPrev);
+  next?.addEventListener("mouseenter", onClickNext);
   const timeout = interval && setInterval(onClickNext, interval);
   // Unregister callbacks
   return () => {
