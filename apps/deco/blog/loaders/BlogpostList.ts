@@ -17,7 +17,7 @@ const ACCESSOR = "post";
 
 export interface Props {
   /**
-   * @title Items per page
+   * @title Items por página
    * @description Number of posts per page to display.
    */
   count?: number;

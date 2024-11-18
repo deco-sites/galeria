@@ -15,15 +15,16 @@
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
+      "pagination": {},
       "posts": {
         "__resolveType": "blog/loaders/BlogpostList.ts",
-        "slug": {
-          "__resolveType": "website/functions/requestToParam.ts",
-          "param": "slug"
-        },
         "sortBy": "date_desc",
-        "count": 10,
-        "page": 1
+        "count": 6,
+        "page": 1,
+        "slug": "trabalhos"
+      },
+      "cta": {
+        "text": "Ver Mais"
       }
     },
     {

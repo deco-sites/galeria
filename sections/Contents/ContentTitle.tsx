@@ -8,7 +8,7 @@ export interface Props {
      * @title Texto
      * @description Escreva aqui o seu conteúdo
      */
-    content: string;
+    content?: string;
   }
   
   export default function Section({ 

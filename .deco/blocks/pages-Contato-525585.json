@@ -20,24 +20,35 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Contents/ContentText.tsx",
-        "type": "Parágrafo",
-        "content": "Vem conhecer a Galeria",
-        "vacancy": "Ver Vagas",
-        "vacancyUrl": "https://galeriaestrategiaecomunicacaoltda.pandape.infojobs.com.br/",
-        "contact": [
-          {
-            "title": "contato@galeria.ag",
-            "url": "mailto:contato@galeria.ag",
-            "type": "Texto Grande"
-          },
-          {
-            "title": " 55 11 4765 7090",
-            "url": "tel:+551147657090",
-            "type": "Texto Grande"
-          }
-        ],
-        "text": "Contatos"
+        "__resolveType": "site/sections/Contents/ContentTitle.tsx",
+        "title": "Vem conhecer a Galeria"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentButton.tsx",
+        "type": "Texto Grande",
+        "text": "contato@galeria.ag",
+        "url": "mailto:contato@galeria.ag"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentButton.tsx",
+        "type": "Texto Grande",
+        "text": "55 11 4765 7090",
+        "url": "mailto:contato@galeria.ag"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentButton.tsx",
+        "type": "Texto Pequeno",
+        "text": "Ver vagas",
+        "url": "https://galeriaestrategiaecomunicacaoltda.pandape.infojobs.com.br/"
       }
     },
     {

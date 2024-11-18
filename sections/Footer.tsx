@@ -42,7 +42,7 @@ export default function Footer({
         )}
       </div>
 
-      <div className="!px-[3.5%]">
+      <div className="!px-[3.5%] pt-7">
         <div className="pt-[30px] md:pt-[60px] pb-20 md:pb-[30px] flex flex-col md:flex-row justify-between">
           {backOnTop && (
             <div className="text-center inline-flex justify-center items-center gap-x-4">
