@@ -36,10 +36,11 @@ export default function Section({
   position = "Esquerda",
 }: Props) {
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative w-full h-[90vh]">
+      <div id="magic-cursor" class="absolute hidden w-[10px] h-[10px] pointer-events-none z-99999 opacity-0"></div>
       <div
         className={`relative w-full h-full ${
-          position === "Centro" ? "flex justify-center items-center text-center" : "text-left"
+          position === "Centro" ? "flex justify-end items-center text-center" : "text-left"
         }`}
       >
 
@@ -74,18 +75,18 @@ export default function Section({
         </div>
 
         <div
-          className={`absolute inset-0 flex flex-col justify-center ${
-            position === "Centro" ? "items-center text-center" : "items-start pl-4 md:pl-10"
+          className={`absolute inset-0 flex flex-col justify-end bottom-[22%] left-[3.5%] ${
+            position === "Centro" ? "items-center text-center" : "items-start"
           }`}
         >
           {title && (
-            <h2 className="text-[6vw] font-helvetica font-bold leading-tight-0.95 tracking-tight-2 text-white">
+            <h2 className="text-[6vw] font-helvetica font-bold leading-tight-0.95 tracking-tight-2 text-white text-clip w-[80%] md:w-full">
               {title}
             </h2>
           )}
           {description && (
             <div className="mt-4">
-                <p className="text-base font-archivo font-medium text-gray max-w-md">
+                <p className="text-[16px] font-archivo font-light text-gray max-w-md">
                     {description}
                 </p> 
             </div>

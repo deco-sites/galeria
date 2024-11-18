@@ -69,28 +69,30 @@ export default function BlogPosts(
   return (
     <ContainerComponent>
       <>
-        <section className="container !px-2 !md:px-0">
+        <section className="container !px-2 !md:px-0 max-w-[1282px]">
           <div class="w-full gap-8 grid grid-cols-1">
               {posts?.slice(from, to).map((post) => (
                   <a
                       href={`/trabalhos/${post.slug}`}
-                      class="relative overflow-hidden"
+                      class="relative w-full h-64 md:h-[750px] overflow-hidden mb-[6vw]"
                   >
                       <Image
-                          width={380}
-                          height={274}
-                          class="object-cover w-full h-full"
-                          sizes="(max-width: 640px) 100vw, 30vw"
+                          // width={380}
+                          // height={274}
+                          class="absolute inset-0 w-full h-full object-cover"
+                          // sizes="(max-width: 640px) 100vw, 30vw"
                           src={post.image || ""}
                           alt={post.image}
                           decoding="async"
                           loading="lazy"
                       />
 
+                      <div class="absolute inset-0 bg-black bg-opacity-20"></div>
 
                       <div class="pl-[8%] pb-[8%] absolute inset-0 flex flex-col justify-end text-white">
                           <div class="">
-                              <h3 class="font-helvetica text-dynamic font-semibold text-white">{post.title}</h3>
+                              <h3 class="font-helvetica text-dynamic font-semibold text-white truncate md:hidden">{post.title}</h3>
+                              <h3 class="font-helvetica text-dynamic font-semibold text-white hidden md:block">{post.title}</h3>
                               <div className="hidden mt-2">
                                 <p class="text-base text-responsive">{post.company}</p>
                               </div>

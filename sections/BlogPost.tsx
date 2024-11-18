@@ -70,30 +70,32 @@ export default function BlogPost({ page }: Props) {
   const { title, image, content, year, company } = page?.post || DEFAULT_PROPS;
 
   return (
-    <section className="w-full bg-black">
-      <div className=" w-full h-full bg-black">
-      <Image
-          src={image || ""}
-          width={100}
-          className="w-full h-35rem md:h-full object-cover"
-
-        />
-        <div className="container py-[5%] absolute inset-0 flex items-center justify-start box-border">
-          <div className="pl-[8%] flex flex-col">
-            <p className="text-4.5vw font-helvetica font-bold text-white uppercase">{title}</p>
-            <div className="mt-[25px] md:mt-[5px] flex flex-col md:flex-row md:gap-x-[25px] gap-y-[25px]">
-              <div className="pr-[30px] grid gap-y-[15px] md:gap-y-[5px] h-full border-r border-gray-border">
-                <p className="text-dynamic-work font-helvetica leading-tight-22 text-white opacity-7">Cliente</p>
-                <p className="text-dynamic-work font-helvetica text-white">{company}</p>
-              </div>
-              <div className="grid gap-y-[15px] md:gap-y-[5px]">
-                <p className="text-dynamic-work font-helvetica leading-tight-22 text-white opacity-7">Ano</p>
-                <p className="text-dynamic-work font-helvetica leading-tight-22 text-white">{year}</p>
+    <section className="bg-black">
+        <div className="relative block h-screen overflow-y-hidden">
+          <Image
+              src={image || ""}
+              width={100}
+              className="w-full absolute top-0 left-0 object-cover"
+            />
+          <div class="bg-gradient-to-t from-black to-transparent h-64 w-full absolute bottom-0"></div>
+          <div class="bg-black h-screen w-full absolute opacity-50"></div>
+          <div className="container py-[5%] inset-0 flex items-center justify-start box-border absolute">
+            <div className="pl-[8%] flex flex-col">
+              <p className="text-4.5vw font-helvetica font-bold text-white uppercase">{title}</p>
+              <div className="mt-[25px] md:mt-[5px] flex flex-col md:flex-row md:gap-x-[25px] gap-y-[25px]">
+                <div className="pr-[30px] grid gap-y-[15px] md:gap-y-[5px] h-full border-r border-gray-border">
+                  <p className="text-dynamic-work font-helvetica leading-tight-22 text-white opacity-7">Cliente</p>
+                  <p className="text-dynamic-work font-helvetica text-white">{company}</p>
+                </div>
+                <div className="grid gap-y-[15px] md:gap-y-[5px]">
+                  <p className="text-dynamic-work font-helvetica leading-tight-22 text-white opacity-7">Ano</p>
+                  <p className="text-dynamic-work font-helvetica leading-tight-22 text-white">{year}</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div>
+        <div className="block">
           <div className="container !px-[15px] pt-[260px] grid gap-y-[30px] border-box">
             <p className="text-[26px] font-helvetica font-normal leading-tight-36 text-white opacity-7">{title}</p>
             {content?.map((section) => (
@@ -120,7 +122,6 @@ export default function BlogPost({ page }: Props) {
             </div>
           </div>
         </div> */}
-      </div>
     </section>
   );
 }

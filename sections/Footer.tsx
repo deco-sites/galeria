@@ -36,10 +36,8 @@ export default function Footer({
         {image && (
           <Image
             src={image || ""}
-            width={100}
-            height={344}
-            className="w-full h-[344px] object-contain bg-center bg-no-repeat"
-            title="Imagem de Fundo"
+            className="w-full"
+            title="Galeria"
           />
         )}
       </div>
