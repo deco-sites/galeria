@@ -2,6 +2,8 @@ import { type BlogPost, BlogPostPage } from "../apps/deco/blog/types.ts";
 import { Section } from "deco/blocks/section.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "site/components/ui/Icon.tsx";
+import BlogPostComponent from "../components/ui/BlogPost/index.tsx";
+
 interface Props {
   /**
    * @description The description of name.
@@ -79,21 +81,11 @@ export default function BlogPost({ page }: Props) {
             />
           <div class="bg-gradient-to-t from-black to-transparent h-64 w-full absolute bottom-0"></div>
           <div class="bg-black h-screen w-full absolute opacity-50"></div>
-          <div className="container py-[5%] inset-0 flex items-center justify-start box-border absolute">
-            <div className="pl-[8%] flex flex-col">
-              <p className="text-4.5vw font-helvetica font-bold text-white uppercase">{title}</p>
-              <div className="mt-[25px] md:mt-[5px] flex flex-col md:flex-row md:gap-x-[25px] gap-y-[25px]">
-                <div className="pr-[30px] grid gap-y-[15px] md:gap-y-[5px] h-full border-r border-gray-border">
-                  <p className="text-dynamic-work font-helvetica leading-tight-22 text-white opacity-7">Cliente</p>
-                  <p className="text-dynamic-work font-helvetica text-white">{company}</p>
-                </div>
-                <div className="grid gap-y-[15px] md:gap-y-[5px]">
-                  <p className="text-dynamic-work font-helvetica leading-tight-22 text-white opacity-7">Ano</p>
-                  <p className="text-dynamic-work font-helvetica leading-tight-22 text-white">{year}</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <BlogPostComponent
+            title={title}
+            company={company}
+            year={year}
+          ></BlogPostComponent>
         </div>
         <div className="block anim-fadeinup">
           <div className="container !px-[15px] pt-[260px] grid gap-y-[30px] border-box">

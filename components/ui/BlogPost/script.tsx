@@ -4,8 +4,8 @@ export interface Props { }
 
 const setup = ({ }: Props) => {
     
-  const title = document.getElementById('headerOnlyText-title')
-  const description = document.getElementById('headerOnlyText-description')
+  const title = document.getElementById('BlogPostComponent-title')
+  const description = document.getElementById('BlogPostComponent-div')
 
   if (title && description) {
       setTimeout(() => {
@@ -21,7 +21,7 @@ const setup = ({ }: Props) => {
 
 }
 
-function HeaderOnlyText(
+function BlogPost(
   { }: Props,
 ) {
   return (
@@ -33,4 +33,4 @@ function HeaderOnlyText(
     />
   );
 }
-export default HeaderOnlyText;
+export default BlogPost;

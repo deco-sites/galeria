@@ -3,7 +3,6 @@ import { useScript as useScript } from "@deco/deco/hooks";
 export interface Props { }
 
 const setup = ({ }: Props) => {
-    console.log('awui dsfl');
     
   const title = document.getElementById('headerOnlyTextToWork-title')
   const description = document.getElementById('headerOnlyTextToWork-description')
