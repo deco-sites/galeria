@@ -2939,6 +2939,9 @@ input.tab:checked + .tab-content,
 .max-w-\[139px\]{
   max-width: 139px;
 }
+.max-w-\[270px\]{
+  max-width: 270px;
+}
 .max-w-\[2px\]{
   max-width: 2px;
 }
@@ -3802,9 +3805,6 @@ input.tab:checked + .tab-content,
 .capitalize{
   text-transform: capitalize;
 }
-.\!leading-tight-60{
-  line-height: 60px !important;
-}
 .leading-4{
   line-height: 1rem;
 }
@@ -3947,6 +3947,9 @@ input.tab:checked + .tab-content,
 }
 .opacity-50{
   opacity: 0.5;
+}
+.opacity-60{
+  opacity: 0.6;
 }
 .opacity-7{
   opacity: .7;
@@ -4185,10 +4188,6 @@ input.tab:checked + .tab-content,
     width: 50%;
   }
 
-  .md\:w-\[950px\]{
-    width: 950px;
-  }
-
   .md\:w-fit{
     width: -moz-fit-content;
     width: fit-content;
@@ -4196,6 +4195,10 @@ input.tab:checked + .tab-content,
 
   .md\:w-full{
     width: 100%;
+  }
+
+  .md\:max-w-none{
+    max-width: none;
   }
 
   .md\:max-w-xl{

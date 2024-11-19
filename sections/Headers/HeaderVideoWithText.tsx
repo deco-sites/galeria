@@ -1,5 +1,6 @@
 import { VideoWidget } from "apps/admin/widgets.ts";
 import Video from "apps/website/components/Video.tsx";
+import HeaderVideoWithText from "../../components/ui/HeaderVideoWithText/index.tsx";
 
 export interface Props {
   /**
@@ -44,7 +45,7 @@ export default function Section({
         }`}
       >
 
-        <div className="absolute inset-0 w-full h-full">
+        <div className="absolute inset-0 w-full h-full bg-black">
           {/* Vídeo para Desktop */}
           {video && (
             <Video
@@ -55,7 +56,7 @@ export default function Section({
               autoPlay
               muted
               loop
-              className="hidden md:block w-full h-full object-cover"
+              className="hidden md:block w-full h-full opacity-60 object-cover"
             />
           )}
 
@@ -69,7 +70,7 @@ export default function Section({
               autoPlay
               muted
               loop
-              className="block md:hidden w-full h-full object-cover"
+              className="block md:hidden w-full h-full opacity-60 object-cover"
             />
           )}
         </div>
@@ -79,18 +80,10 @@ export default function Section({
             position === "Centro" ? "items-center text-center" : "items-start"
           }`}
         >
-          {title && (
-            <h2 className="text-[6vw] font-helvetica font-bold leading-tight-0.95 tracking-tight-2 text-white text-clip w-[80%] md:w-full">
-              {title}
-            </h2>
-          )}
-          {description && (
-            <div className="mt-4">
-                <p className="text-[16px] font-archivo font-light text-gray max-w-md">
-                    {description}
-                </p> 
-            </div>
-          )}
+          <HeaderVideoWithText
+            title={title}
+            description={description}
+          ></HeaderVideoWithText>
         </div>
       </div>
       <div class="w-full flex justify-center py-8">
