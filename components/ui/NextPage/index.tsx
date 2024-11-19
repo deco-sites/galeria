@@ -100,7 +100,7 @@ function NextPage({
 }
     @media (min-width: 1025px) {
     .tt-page-nav .tt-pn-link:hover .tt-pn-hover-title span {
-        animation: marquee 3s linear infinite;
+        animation: marquee 13s linear infinite;
         animation-play-state: running;
     }
 }
@@ -109,7 +109,7 @@ function NextPage({
         display: inline-flex;
         align-items: center;
         padding-right: 5vw;
-        animation: marquee 3s linear infinite;
+        animation: marquee 13s linear infinite;
         animation-play-state: paused;
     }
 }
@@ -122,14 +122,18 @@ function NextPage({
 }
 
 /* Transições de elementos dentro do magic-cursor */
+
 #magic-cursor {
-    position: absolute;
-    display: block;
-    width: 10px;
-    height: 10px;
-    pointer-events: none;
-    z-index: 99999;
-    opacity: 0;
+	position: absolute;
+	display: none;
+	width: 10px;
+	height: 10px;
+	pointer-events: none;
+	z-index: 99999;
+	opacity: 0;
+}
+.tt-magic-cursor #magic-cursor {
+	display: block;
 }
     
 #ball {
@@ -143,6 +147,71 @@ function NextPage({
 	/*border-color: #FFF;*/
 	border-radius: 50%;
 	/* Note: border width handled through JS */
+}
+    #ball .ball-view {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	padding: 0 5px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #222;
+	line-height: 1.3;
+	text-align: center;
+	transform: scale(0);
+}
+
+#ball .ball-view i {
+	font-size: 19px;
+}
+        
+/* Page nav image */
+.tt-page-nav .tt-pn-image {
+	display: none; /* disabled by default */
+}
+.tt-pn-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.tt-pn-image::before {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background-color: #040404;
+	opacity: .1;
+}
+.tt-pn-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+  
+#magic-cursor.tt-pn-hover-on {
+	z-index: -1;
+}
+#magic-cursor.tt-pn-hover-on #ball {
+	overflow: hidden;
+	border: none !important;
+}
+    .tt-pn-hover-title span::after {
+    position: absolute;
+    display: block;
+    content: "";
+    right: 1.9vw;
+    top: 56%;
+    width: .8vw;
+    height: .8vw;
+    background-color: #FFF;
+    border-radius: 100px;
+    transform: translate3d(0, -50%, 0);
 }
 
         `}
@@ -165,34 +234,38 @@ function NextPage({
           </div>
         </a>
       </div> */}
-      <div className="py-10">
-      <div id="magic-cursor">
-				<div id="ball"></div>
-			</div>
-        <div className="tt-page-nav tt-pn-scroll">
-          <a href="pra-voce-chegar-la.html" className="tt-pn-link anim-fadeinup">
-            <div className="tt-pn-title text-uppercase font-h2">Itaú</div>
-            <div className="tt-pn-hover-title text-uppercase font-h2">UniclassName</div>
-          </a> 
+      <div className="tt-transition tt-boxed tt-smooth-scroll tt-magic-cursor">
+        <div className="py-36">
+            <div id="magic-cursor">
+                <div id="ball"></div>
+            </div>
+            <div id="scroll-container">
+                <div className="tt-page-nav tt-pn-scroll">
+                    <a href="pra-voce-chegar-la.html" className="tt-pn-link anim-fadeinup">
+                        <div className="tt-pn-title text-uppercase font-h2">Itaú</div>
+                        <div className="tt-pn-hover-title text-uppercase font-h2">UniclassName</div>
+                    </a> 
 
-          <div className="tt-pn-subtitle anim-fadeinup">Próximo Trabalho</div>
+                    <div className="tt-pn-subtitle anim-fadeinup">Próximo Trabalho</div>
 
-          
-          <div className="tt-pn-image">
-          <Image
-                  src={image || ""}
-                  alt={text}
-                  className="w-full h-full object-cover rounded-full"
-                  loading="lazy"
-                  decoding="async"
-              />
-          </div>
+                    
+                    <div className="tt-pn-image">
+                    <Image
+                            src={image || ""}
+                            alt={text}
+                            className="w-full h-full object-cover rounded-full"
+                            loading="lazy"
+                            decoding="async"
+                        />
+                    </div>
+                </div>
+            </div>
         </div>
+        <Script 
+            text={text} 
+            hoverText={hoverText} 
+            />
       </div>
-      <Script 
-        text={text} 
-        hoverText={hoverText} 
-        />
     </>
   );
 }

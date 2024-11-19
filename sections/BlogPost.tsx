@@ -95,7 +95,7 @@ export default function BlogPost({ page }: Props) {
             </div>
           </div>
         </div>
-        <div className="block">
+        <div className="block anim-fadeinup">
           <div className="container !px-[15px] pt-[260px] grid gap-y-[30px] border-box">
             <p className="text-[26px] font-helvetica font-normal leading-tight-36 text-white opacity-7">{title}</p>
             {content?.map((section) => (
