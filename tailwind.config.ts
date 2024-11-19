@@ -55,7 +55,7 @@ export default {
       },
       animation: {
         sliding: "sliding 30s linear infinite",
-        marquee: "marquee 2s linear infinite",
+        marquee: "marquee 10s linear infinite",
       },
       keyframes: {
         sliding: {
@@ -63,8 +63,8 @@ export default {
           "100%": { transform: "translateX(-50%)" },
         },
         marquee: {
-          '0%': { transform: 'translateX(200%)' },
-          '100%': { transform: 'translateX(-200%)' },
+          'from': { transform: 'translateX(0%)' },
+          'to': { transform: 'translateX(-50%)' },
         },
       },
     },

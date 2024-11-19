@@ -1,3 +1,5 @@
+
+import ContentButton from "../../components/ui/ContentButton/index.tsx";
 export interface Props {
     /**
      * @title Texto
@@ -18,21 +20,14 @@ export interface Props {
 export default function Section({ text, url, type }: Props) {
     const textClass =
       type === "Texto Grande"
-        ? "text-[4.5vw] font-helvetica leading-tight-1 tracking-tight-1.36 font-bold text-white uppercase"
-        : "text-[1.5vw] font-helvetica leading-tight-1 tracking-tight-1.36 font-medium text-gray-light";
+        ? "text-[4.5vw] font-helvetica font-bold leading-none text-white uppercase texto-grande"
+        : "text-[1.5vw] font-helvetica font-medium leading-none text-gray-light";
   
     return (
-        <section className="pb-[80px] bg-black">
-            <div className="grid justify-center items-center gap-y-2">
-                <a
-                    href={url || "#"}
-                    className={`${textClass}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {text}
-                </a>
-            </div>
-        </section>
+        <ContentButton
+            url={url}
+            type={textClass}
+            text={text}
+        ></ContentButton>
     );
   }
