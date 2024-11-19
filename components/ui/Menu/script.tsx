@@ -10,29 +10,18 @@ const setup = ({ }: Props) => {
     const itemsMenu = document.getElementsByClassName('itemMenu')
 
     // Captura as coordenadas do mouse em tempo real
-    btnMenu?.addEventListener('mouseleave', (event) => {
-        
-        if(btnMenuCaption) {
-            btnMenuCaption.textContent = 'Abrir'
-        }
-
-    });
-
-    // Captura as coordenadas do mouse em tempo real
     btnMenu?.addEventListener('click', (event) => {
         
-        if(MenuContent && btnMenuCaption) {
+        if(MenuContent && btnMenuCaption && btnMenuCaption.textContent === 'Abrir') {
             btnMenuCaption.textContent = 'Fechar'
             MenuContent.classList.remove('hidden')
+            setTimeout(() => MenuContent.classList.add('opacity-100'), 10);
         }
-
-    });
-
-    // Captura as coordenadas do mouse em tempo real
-    btnMenu?.addEventListener('mouseout', (event) => {
         
-        if(btnMenuCaption) {
-            btnMenuCaption.textContent = 'Menu'
+        else if(MenuContent && btnMenuCaption && btnMenuCaption.textContent === 'Fechar') {
+            btnMenuCaption.textContent = 'Abrir'
+            MenuContent.classList.remove('opacity-100')
+            setTimeout(() => MenuContent.classList.add('hidden'), 300);
         }
 
     });

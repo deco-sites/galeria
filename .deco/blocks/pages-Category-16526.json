@@ -28,46 +28,6 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true,
-        "dots": true,
-        "slides": [
-          {
-            "content": {
-              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/e5b97f6d-7dde-44b2-abfc-dac3bfdd8dc2/horses",
-              "description": "teste"
-            }
-          },
-          {
-            "content": {
-              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/fb3551f7-495c-486b-aed2-0cce0aab92f2/Unsplash-picture.jpg",
-              "description": "qweqwe"
-            }
-          },
-          {
-            "content": {
-              "description": "qwewqww",
-              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/6231b963-8a33-454b-aa00-837f869cf100/capa.jpeg"
-            }
-          },
-          {
-            "content": {
-              "description": "qwewqww",
-              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/6231b963-8a33-454b-aa00-837f869cf100/capa.jpeg"
-            }
-          },
-          {
-            "content": {
-              "description": "qwewqww",
-              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/6231b963-8a33-454b-aa00-837f869cf100/capa.jpeg"
-            }
-          }
-        ]
-      }
-    },
-    {
       "__resolveType": "Footer"
     }
   ],

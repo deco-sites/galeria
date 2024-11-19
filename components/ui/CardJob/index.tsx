@@ -8,7 +8,8 @@ function CardJob({ post }: JSX.IntrinsicElements["div"] & Props) {
       <div id={post.slug} className="relative w-full h-64 md:h-[750px] overflow-hidden mb-[6vw]">
         <a href={`/trabalhos/${post.slug}`}>
           <Image
-              class="absolute inset-0 w-full h-full object-cover"
+              id={'img-' + post.slug}
+              class="absolute inset-0 w-full h-full object-cover opacity-0 transform scale-110 transition-all duration-1000"
               src={post.image || ""}
               alt={post.image}
               decoding="async"
