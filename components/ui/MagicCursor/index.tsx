@@ -4,7 +4,7 @@ import Script, { type Props } from "./script.tsx";
 function MagicCursor({ }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-        <div id="magicCursor" className="border border-white rounded-full h-[36px] w-[36px] fixed top-0 left-0"></div>
+        <div id="magicCursor" className="border border-white rounded-full h-9 w-9 fixed top-0 left-0"></div>
         <Script />
     </>
   );

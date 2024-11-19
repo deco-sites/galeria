@@ -2872,6 +2872,9 @@ details.collapse summary::-webkit-details-marker{
 .h-64{
   height: 16rem;
 }
+.h-9{
+  height: 2.25rem;
+}
 .h-\[10px\]{
   height: 10px;
 }
@@ -2883,9 +2886,6 @@ details.collapse summary::-webkit-details-marker{
 }
 .h-\[210px\]{
   height: 210px;
-}
-.h-\[36px\]{
-  height: 36px;
 }
 .h-\[3px\]{
   height: 3px;
@@ -2957,6 +2957,9 @@ details.collapse summary::-webkit-details-marker{
 .w-2{
   width: 0.5rem;
 }
+.w-9{
+  width: 2.25rem;
+}
 .w-\[10px\]{
   width: 10px;
 }
@@ -2977,9 +2980,6 @@ details.collapse summary::-webkit-details-marker{
 }
 .w-\[363px\]{
   width: 363px;
-}
-.w-\[36px\]{
-  width: 36px;
 }
 .w-\[400px\]{
   width: 400px;

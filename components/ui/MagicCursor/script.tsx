@@ -32,7 +32,7 @@ const setup = ({ }: Props) => {
     
 }
 
-function NextPage(
+function MagicCursor(
   { }: Props,
 ) {
   return (
@@ -44,4 +44,4 @@ function NextPage(
     />
   );
 }
-export default NextPage;
+export default MagicCursor;
