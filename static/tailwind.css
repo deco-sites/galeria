@@ -3936,6 +3936,9 @@ details.collapse summary::-webkit-details-marker{
 .leading-\[22px\]{
   line-height: 22px;
 }
+.leading-none{
+  line-height: 1;
+}
 .leading-normal{
   line-height: 1.5;
 }
