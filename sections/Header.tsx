@@ -1,21 +1,19 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import MagicCursor from "../components/ui/MagicCursor/index.tsx";
+import Menu from "../components/ui/Menu/index.tsx";
 
-export interface Menu {
-  textMenu: string;
-  textMenuOpen: string;
-  iconHamburguer: ImageWidget;
-  iconOut?: ImageWidget;
-  openMenuText: Array<{
-    text: string;
-    url: string;
-  }>;
+/**
+ * @title {{{text}}}
+ */
+export interface Item {
+  text: string;
+  url: string;
 }
 
 export interface Props {
   logo: ImageWidget;
-  menu: Menu[];
+  menu: Item[];
 }
 
 export default function Header({ 
@@ -29,7 +27,7 @@ export default function Header({
       <div className="px-[3.5%] py-10 flex items-center justify-between w-full bg-transparent">
         {/* Logo */}
         {logo && (
-          <a href="/" className="flex items-center">
+          <a href="/" className="flex items-center z-10">
             <Image
               src={logo}
               width={48}
@@ -39,49 +37,8 @@ export default function Header({
             />
           </a>
         )}
-
-        {/* Ícone de Menu (Hamburguer) */}
-        {menu.map((item, index) => (
-          <button key={index} id={`menu-button-${index}`} className="relative block">
-            <Image
-              src={item.iconHamburguer}
-              width={50}
-              height={50}
-              className="w-[50px] h-[50px] object-contain"
-            />
-          </button>
-        ))}
+        <Menu items={menu} />
       </div>
-
-      {/* Menu Aberto */}
-      {menu.map((item, index) => (
-        <div
-          key={index}
-          id={`mobile-menu-${index}`}
-          className="fixed inset-0 flex flex-col items-center justify-center hidden"
-        >
-          {/* Ícone de Sair */}
-          <button id={`close-menu-${index}`} className="hidden absolute">
-            <Image
-              src={item.iconOut ?? ""}
-              width={50}
-              height={50}
-              className="w-[50px] h-[50px] object-contain"
-            />
-          </button>
-
-          {/* Itens do Menu */}
-          <ul className="space-y-5 text-white text-xl">
-            {item.openMenuText.map((subItem, subIndex) => (
-              <li key={subIndex}>
-                <a href={subItem.url || "#"} className="hover:underline">
-                  {subItem.text}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
       <MagicCursor />
     </nav>
   );

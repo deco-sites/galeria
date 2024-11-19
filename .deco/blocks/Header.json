@@ -2,32 +2,24 @@
   "__resolveType": "site/sections/Header.tsx",
   "menu": [
     {
-      "openMenuText": [
-        {
-          "text": "Sobre a Galeria",
-          "url": "/sobre"
-        },
-        {
-          "text": "Clientes",
-          "url": "/clientes"
-        },
-        {
-          "text": "Trabalhos",
-          "url": "/trabalhos"
-        },
-        {
-          "text": "Vagas",
-          "url": "/vagas"
-        },
-        {
-          "text": "Contato",
-          "url": "/Contato"
-        }
-      ],
-      "textMenu": "Menu",
-      "textMenuOpen": "Abrir",
-      "iconHamburguer": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/2cf9e599-4997-47bf-a2cc-d68df26cae15/menu_icon_test.png",
-      "iconOut": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/31d13477-c266-477e-83d7-9b4c1e7da6ed/icon_out_test.png"
+      "text": "Sobre a Galeria",
+      "url": "/sobre"
+    },
+    {
+      "text": "Clientes",
+      "url": "/clientes"
+    },
+    {
+      "text": "Trabalhos",
+      "url": "/trabalhos"
+    },
+    {
+      "text": "Vagas",
+      "url": "https://galeria.pandape.infojobs.com.br/"
+    },
+    {
+      "text": "Contato",
+      "url": "/contato"
     }
   ],
   "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/54c060f6-2c2f-4963-b214-efea57845346/icon_logo_header.png"

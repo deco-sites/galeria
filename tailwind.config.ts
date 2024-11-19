@@ -11,6 +11,15 @@ export default {
         'archivo': ["Archivo", "sans-serif"],
         'helvetica': ["Helvetica", "sans-serif"]
       },
+      fontSize: {
+        '6vw': '6vw',
+        '4.5vw': '4.5vw',
+        'dynamic': 'calc(19px + 1.5vw)',
+        'responsive': 'calc(18px + 0.1vw)',
+        'dynamic-base': 'calc(16px + 0.3vw);',
+        'dynamic-work': 'calc(17px + 0.1vw);',
+        'clamp': 'clamp(34px, 3.2vw, 62px)',
+      },
       colors: {
         'gray': "#BFBFBF",
         'gray-light': "#b9b9b9",
@@ -37,14 +46,6 @@ export default {
         'tight-1': "-1.9px",
         'tight-0.1': "1px",
         'tight-2': "-2.36px",
-      },
-      fontSize: {
-        '6vw': '6vw',
-        '4.5vw': '4.5vw',
-        'dynamic': 'calc(19px + 1.5vw)',
-        'responsive': 'calc(18px + 0.1vw)',
-        'dynamic-base': 'calc(16px + 0.3vw);',
-        'dynamic-work': 'calc(17px + 0.1vw);',
       },
       opacity: {
         '7': '.7',
