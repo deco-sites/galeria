@@ -1,5 +1,6 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
+import MagicCursor from "../components/ui/MagicCursor/index.tsx";
 
 export interface Menu {
   textMenu: string;
@@ -81,6 +82,7 @@ export default function Header({
           </ul>
         </div>
       ))}
+      <MagicCursor />
     </nav>
   );
 }
