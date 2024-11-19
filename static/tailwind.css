@@ -697,12 +697,6 @@ input[type=number] {
     --tw-bg-opacity: 1;
     background-color: var(--fallback-b2,oklch(var(--b2)/var(--tw-bg-opacity)));
   }
-
-  .table-zebra tr.hover:hover,
-  .table-zebra tr.hover:nth-child(even):hover{
-    --tw-bg-opacity: 1;
-    background-color: var(--fallback-b3,oklch(var(--b3)/var(--tw-bg-opacity)));
-  }
 }
 .btn{
   display: inline-flex;
@@ -2532,8 +2526,13 @@ input.tab:checked + .tab-content,
 .pointer-events-none{
   pointer-events: none;
 }
+<<<<<<< HEAD
+.collapse{
+  visibility: collapse;
+=======
 .visible{
   visibility: visible;
+>>>>>>> 07ccc136855b4744c1eb661acb4c7e3dee08f08d
 }
 .static{
   position: static;
@@ -2558,6 +2557,9 @@ input.tab:checked + .tab-content,
 }
 .left-0{
   left: 0px;
+}
+.left-1\/2{
+  left: 50%;
 }
 .left-4{
   left: 1rem;
@@ -2773,12 +2775,18 @@ input.tab:checked + .tab-content,
 }
 .h-\[1px\]{
   height: 1px;
+<<<<<<< HEAD
+=======
 }
 .h-\[200px\]{
   height: 200px;
+>>>>>>> 07ccc136855b4744c1eb661acb4c7e3dee08f08d
 }
 .h-\[210px\]{
   height: 210px;
+}
+.h-\[240px\]{
+  height: 240px;
 }
 .h-\[3px\]{
   height: 3px;
@@ -2838,6 +2846,12 @@ input.tab:checked + .tab-content,
 .w-0{
   width: 0px;
 }
+<<<<<<< HEAD
+.w-1\/3{
+  width: 33.333333%;
+}
+=======
+>>>>>>> 07ccc136855b4744c1eb661acb4c7e3dee08f08d
 .w-10{
   width: 2.5rem;
 }
@@ -2865,8 +2879,11 @@ input.tab:checked + .tab-content,
 .w-\[10px\]{
   width: 10px;
 }
-.w-\[200px\]{
-  width: 200px;
+.w-\[200\%\]{
+  width: 200%;
+}
+.w-\[240px\]{
+  width: 240px;
 }
 .w-\[270px\]{
   width: 270px;
@@ -2929,6 +2946,9 @@ input.tab:checked + .tab-content,
 }
 .max-w-3xl{
   max-width: 48rem;
+}
+.max-w-4xl{
+  max-width: 56rem;
 }
 .max-w-6xl{
   max-width: 72rem;
@@ -3002,6 +3022,9 @@ input.tab:checked + .tab-content,
 .flex-shrink{
   flex-shrink: 1;
 }
+.flex-shrink-0{
+  flex-shrink: 0;
+}
 .shrink-0{
   flex-shrink: 0;
 }
@@ -3011,6 +3034,16 @@ input.tab:checked + .tab-content,
 .grow{
   flex-grow: 1;
 }
+<<<<<<< HEAD
+.border-collapse{
+  border-collapse: collapse;
+}
+.-translate-x-1\/2{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+=======
+>>>>>>> 07ccc136855b4744c1eb661acb4c7e3dee08f08d
 .-translate-x-3{
   --tw-translate-x: -0.75rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -3050,16 +3083,16 @@ input.tab:checked + .tab-content,
 }
 @keyframes marquee{
 
-  0%{
-    transform: translateX(200%);
+  from{
+    transform: translateX(0%);
   }
 
-  100%{
-    transform: translateX(-200%);
+  to{
+    transform: translateX(-50%);
   }
 }
 .animate-marquee{
-  animation: marquee 2s linear infinite;
+  animation: marquee 10s linear infinite;
 }
 @keyframes sliding{
 
@@ -3496,10 +3529,6 @@ input.tab:checked + .tab-content,
 .\!px-\[4\%\]{
   padding-left: 4% !important;
   padding-right: 4% !important;
-}
-.\!py-\[150px\]{
-  padding-top: 150px !important;
-  padding-bottom: 150px !important;
 }
 .\!py-\[80px\]{
   padding-top: 80px !important;
@@ -3939,11 +3968,17 @@ input.tab:checked + .tab-content,
 .underline{
   text-decoration-line: underline;
 }
+.no-underline{
+  text-decoration-line: none;
+}
 .opacity-0{
   opacity: 0;
 }
 .opacity-100{
   opacity: 1;
+}
+.opacity-40{
+  opacity: 0.4;
 }
 .opacity-50{
   opacity: 0.5;
@@ -3996,8 +4031,11 @@ input.tab:checked + .tab-content,
 .duration-500{
   transition-duration: 500ms;
 }
-.ease-out{
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+.duration-700{
+  transition-duration: 700ms;
+}
+.ease-\[cubic-bezier\(0\.51\2c 0\.57\2c 0\.17\2c 1\)\]{
+  transition-timing-function: cubic-bezier(0.51,0.57,0.17,1);
 }
 /** Remove scrollbar from overflow-auto */
 @media (min-width: 768px){
@@ -4271,6 +4309,11 @@ input.tab:checked + .tab-content,
     padding-top: 60px;
   }
 
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .md\:text-\[20px\]{
     font-size: 20px;
   }
@@ -4393,6 +4436,14 @@ input.tab:checked + .tab-content,
 
   .lg\:text-\[90px\]{
     font-size: 90px;
+  }
+
+  .lg\:text-\[clamp\(36px\2c 6vw\2c 110px\)\]{
+    font-size: clamp(36px,6vw,110px);
+  }
+
+  .lg\:text-\[clamp\(42px\2c 6vw\2c 110px\)\]{
+    font-size: clamp(42px,6vw,110px);
   }
 }
 @media (min-width: 1280px){

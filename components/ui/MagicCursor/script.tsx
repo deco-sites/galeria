@@ -29,6 +29,17 @@ const setup = ({ }: Props) => {
 
     // Inicia o loop de animação
     moveCursor();
+
+    const nextPage = document.getElementById('nextPage');
+
+    nextPage?.addEventListener('mouseenter', (event) => {
+      cursor?.classList.add('hidden')
+    })
+
+    nextPage?.addEventListener('mouseleave', (event) => {
+      cursor?.classList.remove('hidden')
+    })
+
     
 }
 
