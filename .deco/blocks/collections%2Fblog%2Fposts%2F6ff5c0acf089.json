@@ -1,0 +1,19 @@
+{
+  "name": "collections/blog/posts/6ff5c0acf089",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [],
+    "extraProps": [],
+    "title": "Título de Exemplo",
+    "slug": "/trabalhos/titulo-de-exemplo",
+    "year": "2024",
+    "company": "Galeria",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/07390bdc-cfc3-489d-93f1-3901380327d9/capa.jpg"
+  }
+}
