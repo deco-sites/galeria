@@ -73,7 +73,7 @@ export default function BlogPosts(
         <section className="container !px-2 !md:px-0 max-w-[1282px]">
           <div class="w-full gap-8 grid grid-cols-1">
               {posts?.slice(from, to).map((post) => (
-                  <CardJob post={post}></CardJob>
+                <CardJob post={post}></CardJob>
               ))}
 
               {posts && to < posts.length && (

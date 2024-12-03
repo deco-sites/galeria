@@ -46,12 +46,11 @@ import * as $$$$$$19 from "./sections/Headers/HeaderOnlyTextToWork.tsx";
 import * as $$$$$$20 from "./sections/Headers/HeaderVideoWithText.tsx";
 import * as $$$$$$21 from "./sections/Hero.tsx";
 import * as $$$$$$22 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$23 from "./sections/JobPage.tsx";
-import * as $$$$$$24 from "./sections/Logos.tsx";
-import * as $$$$$$25 from "./sections/MainPost.tsx";
-import * as $$$$$$26 from "./sections/MySection.tsx";
-import * as $$$$$$27 from "./sections/Testimonials.tsx";
-import * as $$$$$$28 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$23 from "./sections/Logos.tsx";
+import * as $$$$$$24 from "./sections/MainPost.tsx";
+import * as $$$$$$25 from "./sections/MySection.tsx";
+import * as $$$$$$26 from "./sections/Testimonials.tsx";
+import * as $$$$$$27 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -78,12 +77,11 @@ const manifest = {
     "site/sections/Headers/HeaderVideoWithText.tsx": $$$$$$20,
     "site/sections/Hero.tsx": $$$$$$21,
     "site/sections/ImageWithParagraph.tsx": $$$$$$22,
-    "site/sections/JobPage.tsx": $$$$$$23,
-    "site/sections/Logos.tsx": $$$$$$24,
-    "site/sections/MainPost.tsx": $$$$$$25,
-    "site/sections/MySection.tsx": $$$$$$26,
-    "site/sections/Testimonials.tsx": $$$$$$27,
-    "site/sections/Theme/Theme.tsx": $$$$$$28,
+    "site/sections/Logos.tsx": $$$$$$23,
+    "site/sections/MainPost.tsx": $$$$$$24,
+    "site/sections/MySection.tsx": $$$$$$25,
+    "site/sections/Testimonials.tsx": $$$$$$26,
+    "site/sections/Theme/Theme.tsx": $$$$$$27,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

@@ -10,8 +10,8 @@ const setup = ({ }: Props) => {
 
     // Captura as coordenadas do mouse em tempo real
     window.addEventListener('mousemove', (event) => {
-        cursorX = event.clientX - 18; // Subtrai metade do tamanho da div para centralizar
-        cursorY = event.clientY - 18;
+        cursorX = event.clientX - 16; // Subtrai metade do tamanho da div para centralizar
+        cursorY = event.clientY - 16;
     });
 
     // Função para interpolar movimento

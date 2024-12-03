@@ -10,7 +10,34 @@ const setup = ({ post }: Props) => {
 
   cardJob?.addEventListener('mouseenter', (event) => {
 
+    let cursorX = 0, cursorY = 0; // Posição real do cursor
+    let delayedX = 0, delayedY = 0; // Posição atrasada da div
+
+    // Captura as coordenadas do mouse em tempo real
+    window.addEventListener('mousemove', (event) => {
+        cursorX = event.clientX - 40; // Subtrai metade do tamanho da div para centralizar
+        cursorY = event.clientY - 40;
+    });
+
+    // Função para interpolar movimento
+    function moveCursor() {
+        // Ajusta gradualmente a posição atrasada
+        delayedX += (cursorX - delayedX) * 0.5; // Quanto menor o fator (0.1), maior o atraso
+        delayedY += (cursorY - delayedY) * 0.5;
+
+        // Atualiza a posição da div
+        cursor.style.transform = `translate(${delayedX}px, ${delayedY}px)`;
+
+        // Chama a função novamente na próxima animação
+        requestAnimationFrame(moveCursor);
+    }
+
+    // Inicia o loop de animação
+    moveCursor();
+
     if(cursor) {
+      cursor.classList.remove('opacity-90')
+      cursor.classList.add('opacity-100')
       cursor.classList.add('bg-white')
       cursor.classList.add('text-center')
       cursor.classList.add('flex')
@@ -22,13 +49,41 @@ const setup = ({ post }: Props) => {
       cursor.textContent = 'Ver Mais'
       cursor.style.height = '80px'
       cursor.style.width = '80px'
+      cursor.style.borderColor = '#FFFFFF'
     }
 
   })
 
   cardJob?.addEventListener('mouseleave', (event) => {
 
+    let cursorX = 0, cursorY = 0; // Posição real do cursor
+    let delayedX = 0, delayedY = 0; // Posição atrasada da div
+
+    // Captura as coordenadas do mouse em tempo real
+    window.addEventListener('mousemove', (event) => {
+        cursorX = event.clientX - 16; // Subtrai metade do tamanho da div para centralizar
+        cursorY = event.clientY - 16;
+    });
+
+    // Função para interpolar movimento
+    function moveCursor() {
+        // Ajusta gradualmente a posição atrasada
+        delayedX += (cursorX - delayedX) * 0.1; // Quanto menor o fator (0.1), maior o atraso
+        delayedY += (cursorY - delayedY) * 0.1;
+
+        // Atualiza a posição da div
+        cursor.style.transform = `translate(${delayedX}px, ${delayedY}px)`;
+
+        // Chama a função novamente na próxima animação
+        requestAnimationFrame(moveCursor);
+    }
+
+    // Inicia o loop de animação
+    moveCursor();
+
     if(cursor) {
+      cursor.classList.add('opacity-90')
+      cursor.classList.remove('opacity-100')
       cursor.classList.remove('bg-white')
       cursor.classList.remove('text-center')
       cursor.classList.remove('flex')
@@ -38,8 +93,9 @@ const setup = ({ post }: Props) => {
       cursor.classList.remove('leading-none')
       cursor.classList.remove('duration-150')
       cursor.textContent = ''
-      cursor.style.height = '36px'
-      cursor.style.width = '36px'
+      cursor.style.height = '32px'
+      cursor.style.width = '32px'
+      cursor.style.borderColor = '#F0F0F0'
     }
 
   })

@@ -1,0 +1,19 @@
+{
+  "name": "collections/blog/posts/ae80824f31c6",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [],
+    "extraProps": [],
+    "title": "ijsijs",
+    "slug": "isisjis",
+    "year": "2024",
+    "company": "itau",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/07390bdc-cfc3-489d-93f1-3901380327d9/capa.jpg"
+  }
+}

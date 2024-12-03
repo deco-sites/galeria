@@ -1,4 +1,5 @@
 import { JSX } from "preact";
+import { ImageWidget } from "apps/admin/widgets.ts";
 import NextPage from "../../components/ui/NextPage/index.tsx";
 
 export type ContentNextPage = JSX.Element;
@@ -14,7 +15,7 @@ export interface Props {
     /**
      * @title Imagem
      */
-    image: ImageWidget,
+    image: string,
     /**
      * @title Link Destino
      */
@@ -25,7 +26,7 @@ export default function ContentNextPageSection({
     text = '',
     hoverText = '',
     image = '',
-    url = ''
+    url = 'aslkdjas'
 }: Props) {
     return (
         <section className="w-full h-full bg-black">
