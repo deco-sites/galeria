@@ -1,7 +1,7 @@
-import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import MagicCursor from "../components/ui/MagicCursor/index.tsx";
 import Menu from "../components/ui/Menu/index.tsx";
+import Logo from "../components/ui/Logo/index.tsx";
 
 /**
  * @title {{{text}}}
@@ -25,18 +25,7 @@ export default function Header({
   return (
     <nav className="w-full bg-transparent fixed top-0 left-0 z-50">
       <div className="px-[3.5%] py-10 flex items-center justify-between w-full bg-transparent">
-        {/* Logo */}
-        {logo && (
-          <a href="/" className="flex items-center z-10">
-            <Image
-              src={logo}
-              width={48}
-              height={48}
-              className="w-12 h-12 object-contain"
-              title="Logo"
-            />
-          </a>
-        )}
+        <Logo logo={logo} />
         <Menu items={menu} />
       </div>
       <MagicCursor />

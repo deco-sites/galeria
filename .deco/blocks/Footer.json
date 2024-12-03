@@ -7,15 +7,52 @@
     "zipCode": "| CEP: 05417-002",
     "contact": "55 11 4765 7090"
   },
-  "socialMedia": [
-    {
+  "socialMedia": {
+    "0": {
       "iconShare": [
         null
       ],
       "icon": [],
-      "text": "Nossas Redes"
-    }
-  ],
+      "text": "Nossas Redes",
+      "socials": [
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/galeria.ag/"
+        },
+        {
+          "type": "TikTok",
+          "url": "https://www.tiktok.com/@galeria.ag"
+        },
+        {
+          "type": "YouTube",
+          "url": "https://www.youtube.com/channel/UCxUZfeBwI3uMV2YuaoAwnOA"
+        },
+        {
+          "type": "LinkedIn",
+          "url": "https://www.linkedin.com/company/galeria-estrategia-e-comunicacao/?originalSubdomain=br"
+        }
+      ]
+    },
+    "socials": [
+      {
+        "type": "Instagram",
+        "url": "https://www.instagram.com/galeria.ag/"
+      },
+      {
+        "type": "TikTok",
+        "url": "https://www.tiktok.com/@galeria.ag"
+      },
+      {
+        "type": "YouTube",
+        "url": "https://www.youtube.com/channel/UCxUZfeBwI3uMV2YuaoAwnOA"
+      },
+      {
+        "type": "LinkedIn",
+        "url": "https://www.linkedin.com/company/galeria-estrategia-e-comunicacao/?originalSubdomain=br"
+      }
+    ],
+    "text": "Nossas Redes"
+  },
   "backOnTop": "Voltar ao Topo",
   "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/85157ca0-7b68-4636-9a93-e13810ceb245/logo_icon.png"
 }

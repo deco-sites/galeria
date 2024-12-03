@@ -8,10 +8,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/HeaderImageWithText.tsx",
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/f11363c9-82bd-47e8-a80a-f8eed2c03954/capa.jpg",
-        "title": "Contato",
-        "description": "TRAGA A SUA MARCA PARA A GALERIA"
+        "__resolveType": "Contato"
       }
     },
     {

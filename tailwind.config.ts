@@ -15,6 +15,7 @@ export default {
         '6vw': '6vw',
         '4.5vw': '4.5vw',
         'dynamic': 'calc(19px + 1.5vw)',
+        'title-carousel': 'calc(19px + 0.6vw)',
         'responsive': 'calc(18px + 0.1vw)',
         'dynamic-base': 'calc(16px + 0.3vw);',
         'dynamic-work': 'calc(17px + 0.1vw);',
@@ -52,6 +53,9 @@ export default {
       },
       spacing: {
         '35rem': '35rem',
+        'slide-height': '19rem',
+        'slide-spacing': '1rem',
+        'slide-size': '55%',
       },
       animation: {
         sliding: "sliding 30s linear infinite",

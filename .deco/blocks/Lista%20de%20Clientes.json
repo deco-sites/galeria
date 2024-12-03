@@ -1,0 +1,65 @@
+{
+  "__resolveType": "site/sections/Contents/ContentGridClients.tsx",
+  "clients": [
+    {
+      "name": "McDonald's",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/07248038-5f1e-4745-a27e-fcf7d603ae7b/mequi_202404041110.jpg"
+    },
+    {
+      "name": "Itaú",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/a050618d-0cb4-40d4-8b3b-81f5fa58b2e2/itau_202404041110.jpg"
+    },
+    {
+      "name": "Vivo",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/89833981-6690-4f52-a885-11da62d6f688/vivo_202404041110.jpg"
+    },
+    {
+      "name": "Havaianas",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/0da76b09-3459-460b-aa20-0fc289700cb9/havaianas_202404041110.jpg"
+    },
+    {
+      "name": "Midea",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/e0446aea-cf42-4ea1-b28e-3d393f09e904/midea_202404041110.jpg"
+    },
+    {
+      "name": "Google",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/7f7e2dcf-9e0d-4de3-862d-d1e5f4bc5817/google_202404041110.jpg"
+    },
+    {
+      "name": "Seara",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/f38e66b4-ce11-4c61-b0f0-19272d6f0497/seara_202404041110.jpg"
+    },
+    {
+      "name": "Natura",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/a6c74171-2382-41b4-a24a-c3e04e2f9887/natura_202404041110.jpg"
+    },
+    {
+      "name": "Bauducco",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/e7c6527d-2c7d-4bb3-b8c3-d07af92554ae/bauduco_202404041110.jpg"
+    },
+    {
+      "name": "Gallo",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/821329d7-2f0b-48c8-afa5-3ca3a6c9d8c6/gallo_202404041110.jpg"
+    },
+    {
+      "name": "Doriana",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/c8e1c666-9fe9-4be6-9051-7f31eefb2ddf/doriana_202404041110.jpg"
+    },
+    {
+      "name": "Totvs",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/cd6c0354-e06f-43ff-a033-6aeb89d55003/totvs_202404041110.jpg"
+    },
+    {
+      "name": "Monday",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/f267d25c-db12-4bbe-96dd-8af32a36d19d/monday_202404041110.jpg"
+    },
+    {
+      "name": "Protea",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/07972e72-cebe-46fa-86b2-150fbf405fc4/protea_202404041110.jpg"
+    },
+    {
+      "name": "SOS",
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/c5b2e7ae-4f33-42c8-89a4-ed02eb9be6a4/sos_202404041110.jpg"
+    }
+  ]
+}

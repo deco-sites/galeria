@@ -1,0 +1,16 @@
+{
+  "name": "collections/blog/posts/4fcd27f60963",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [],
+    "extraProps": [
+      {}
+    ]
+  }
+}

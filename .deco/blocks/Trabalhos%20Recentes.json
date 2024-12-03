@@ -1,0 +1,10 @@
+{
+  "__resolveType": "site/sections/BlogPosts.tsx",
+  "posts": {
+    "__resolveType": "blog/loaders/BlogpostList.ts",
+    "sortBy": "date_desc",
+    "count": 6,
+    "slug": "trabalhos"
+  },
+  "cta": {}
+}

@@ -8,24 +8,11 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/HeaderOnlyTextToWork.tsx",
-        "description": "TRANSFORMANDO NEGÓCIOS POR MEIO DA CRIATIVIDADE",
-        "title": "Últimos Trabalhos"
+        "__resolveType": "Trabalhos"
       }
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx",
-      "pagination": {},
-      "posts": {
-        "__resolveType": "blog/loaders/BlogpostList.ts",
-        "sortBy": "date_desc",
-        "count": 60,
-        "page": 1,
-        "slug": "trabalhos"
-      },
-      "cta": {
-        "text": "Ver Mais"
-      }
+      "__resolveType": "Todos os Trabalhos"
     },
     {
       "__resolveType": "Footer"

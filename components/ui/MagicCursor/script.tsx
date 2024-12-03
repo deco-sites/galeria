@@ -40,6 +40,16 @@ const setup = ({ }: Props) => {
       cursor?.classList.remove('hidden')
     })
 
+    const logoHeader = document.getElementById('logoHeader');
+
+    logoHeader?.addEventListener('mouseenter', (event) => {
+      cursor?.classList.add('hidden')
+    })
+
+    logoHeader?.addEventListener('mouseleave', (event) => {
+      cursor?.classList.remove('hidden')
+    })
+
     
 }
 

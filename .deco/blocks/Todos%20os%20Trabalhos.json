@@ -1,0 +1,14 @@
+{
+  "__resolveType": "site/sections/BlogPosts.tsx",
+  "pagination": {},
+  "posts": {
+    "__resolveType": "blog/loaders/BlogpostList.ts",
+    "sortBy": "date_desc",
+    "count": 60,
+    "page": 1,
+    "slug": "trabalhos"
+  },
+  "cta": {
+    "text": "Ver Mais"
+  }
+}
