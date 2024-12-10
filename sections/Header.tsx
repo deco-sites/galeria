@@ -23,7 +23,7 @@ export default function Header({
 }: Props) {
 
   return (
-    <nav className="w-full bg-transparent fixed top-0 left-0 z-50">
+    <nav id="navbar" className="w-full bg-transparent fixed top-0 left-0 z-50">
       <div className="px-[3.5%] py-10 flex items-center justify-between w-full bg-transparent">
         <Logo logo={logo} />
         <Menu items={menu} />

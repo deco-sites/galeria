@@ -3,7 +3,7 @@ import { useScript as useScript } from "@deco/deco/hooks";
 export interface Props { }
 
 const setup = ({ }: Props) => {
-
+    
     const cursor = document.getElementById('magicCursor');
     let cursorX = 0, cursorY = 0; // Posição real do cursor
     let delayedX = 0, delayedY = 0; // Posição atrasada da div

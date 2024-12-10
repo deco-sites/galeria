@@ -2,6 +2,7 @@ import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Icon, { AvailableIcons } from "site/components/ui/Icon.tsx";
 import SocialIcons from "../components/ui/SocialIcons/index.tsx";
+import BackOnTopButton from "../components/ui/BackOnTopButton/index.tsx";
 
 export interface Endereco {
   street?: string;
@@ -53,17 +54,8 @@ export default function Footer({
       <div className="!px-[3.5%] pt-7">
         <div className="pt-[30px] md:pt-[60px] pb-20 md:pb-[30px] flex flex-col md:flex-row justify-between items-center">
           {backOnTop && (
-            <div className="text-center inline-flex items-center gap-x-4 w-full">
-              <a
-                href={backOnTop}
-                className="text-sm font-helvetica leading-tight-1.6 text-white"
-              >
-                Voltar ao Topo
-              </a>
-              <div className="w-10 border-b border-white"></div>
-            </div>
+            <BackOnTopButton />
           )}
-
           <div className="text-center my-5 w-full">
 
             {address.street && 

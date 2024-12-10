@@ -5,6 +5,7 @@ export const Layout = ({ children, revision, hmrUniqueId }: {
   revision: string;
   hmrUniqueId: string;
 }) => {
+
   return (
     <>
       {/* Include Icons and manifest */}
