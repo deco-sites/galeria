@@ -6,6 +6,8 @@ const setup = ({ }: Props) => {
 
     const carousel = document.getElementById("emblaCarousel")
     var cursor = document.getElementById('magicCursor');
+    var cursorCarousel = document.getElementById('carouselCoursor');
+    var cursorCarouselCircle = document.getElementById('carouselCoursorCircle');
 
     carousel?.addEventListener('mouseenter', (event) => {
 
@@ -14,7 +16,7 @@ const setup = ({ }: Props) => {
 
       // Captura as coordenadas do mouse em tempo real
       window.addEventListener('mousemove', (event) => {
-          cursorX = event.clientX - 35; // Subtrai metade do tamanho da div para centralizar
+          cursorX = event.clientX - 65; // Subtrai metade do tamanho da div para centralizar
           cursorY = event.clientY - 35;
       });
 
@@ -25,7 +27,7 @@ const setup = ({ }: Props) => {
           delayedY += (cursorY - delayedY) * 0.5;
 
           // Atualiza a posição da div
-          cursor.style.transform = `translate(${delayedX}px, ${delayedY}px)`;
+          cursorCarousel.style.transform = `translate(${delayedX}px, ${delayedY}px)`;
 
           // Chama a função novamente na próxima animação
           requestAnimationFrame(moveCursor);
@@ -34,12 +36,13 @@ const setup = ({ }: Props) => {
       // Inicia o loop de animação
       moveCursor();
 
-      if(cursor) {
-        cursor.classList.remove('opacity-90')
-        cursor.classList.add('opacity-100')
-        cursor.classList.add('duration-150')
-        cursor.style.height = '70px'
-        cursor.style.width = '70px'
+      if(cursor && cursorCarousel && cursorCarouselCircle) {
+      
+        cursor.classList.add('hidden')
+        cursorCarousel.classList.remove('hidden')
+        cursorCarouselCircle.classList.add('duration-150')
+        cursorCarouselCircle.style.height = '70px'
+        cursorCarouselCircle.style.width = '70px'
       }
 
     })
@@ -62,7 +65,7 @@ const setup = ({ }: Props) => {
           delayedY += (cursorY - delayedY) * 0.1;
 
           // Atualiza a posição da div
-          cursor.style.transform = `translate(${delayedX}px, ${delayedY}px)`;
+          cursorCarousel.style.transform = `translate(${delayedX}px, ${delayedY}px)`;
 
           // Chama a função novamente na próxima animação
           requestAnimationFrame(moveCursor);
@@ -72,11 +75,8 @@ const setup = ({ }: Props) => {
       moveCursor();
 
       if(cursor) {
-        cursor.classList.add('opacity-90')
-        cursor.classList.remove('opacity-100')
-        cursor.classList.remove('duration-150')
-        cursor.style.height = '32px'
-        cursor.style.width = '32px'
+        cursor.classList.remove('hidden')
+        cursorCarousel?.classList.add('hidden')
       }
 
     })

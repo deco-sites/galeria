@@ -14,7 +14,7 @@ function HeaderVideoWithText({
           )}
           {description && (
             <div className="mt-4">
-                <p id="headerVideoWithText-description" className="translate-y-12 opacity-0 duration-1000 text-[16px] font-archivo font-light text-gray max-w-md">
+                <p id="headerVideoWithText-description" className="translate-y-12 opacity-0 duration-1000 text-[18px] font-helvetica font-medium text-gray max-w-md md:leading-tight-28">
                     {description}
                 </p> 
             </div>

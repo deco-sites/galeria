@@ -3127,8 +3127,8 @@ details.collapse summary::-webkit-details-marker{
 .max-w-6xl{
   max-width: 72rem;
 }
-.max-w-\[1282px\]{
-  max-width: 1282px;
+.max-w-\[1266px\]{
+  max-width: 1266px;
 }
 .max-w-\[139px\]{
   max-width: 139px;
@@ -3814,8 +3814,8 @@ details.collapse summary::-webkit-details-marker{
 .pb-\[15px\]{
   padding-bottom: 15px;
 }
-.pb-\[8\%\]{
-  padding-bottom: 8%;
+.pb-\[5\%\]{
+  padding-bottom: 5%;
 }
 .pb-\[80px\]{
   padding-bottom: 80px;
@@ -3886,9 +3886,6 @@ details.collapse summary::-webkit-details-marker{
 .text-start{
   text-align: start;
 }
-.font-archivo{
-  font-family: Archivo, sans-serif;
-}
 .font-helvetica{
   font-family: Helvetica, sans-serif;
 }
@@ -3919,8 +3916,8 @@ details.collapse summary::-webkit-details-marker{
 .text-\[15px\]{
   font-size: 15px;
 }
-.text-\[16px\]{
-  font-size: 16px;
+.text-\[18px\]{
+  font-size: 18px;
 }
 .text-\[19px\]{
   font-size: 19px;
@@ -4271,6 +4268,9 @@ details.collapse summary::-webkit-details-marker{
     }
   }
 }
+.hover\:cursor-grab:hover{
+  cursor: grab;
+}
 .hover\:text-gray-light:hover{
   --tw-text-opacity: 1;
   color: rgb(185 185 185 / var(--tw-text-opacity));
@@ -4481,8 +4481,8 @@ details.collapse summary::-webkit-details-marker{
     line-height: 1;
   }
 
-  .md\:text-\[20px\]{
-    font-size: 20px;
+  .md\:text-\[21px\]{
+    font-size: 21px;
   }
 
   .md\:text-base{

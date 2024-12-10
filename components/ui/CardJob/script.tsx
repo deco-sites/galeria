@@ -15,8 +15,8 @@ const setup = ({ post }: Props) => {
 
     // Captura as coordenadas do mouse em tempo real
     window.addEventListener('mousemove', (event) => {
-        cursorX = event.clientX - 40; // Subtrai metade do tamanho da div para centralizar
-        cursorY = event.clientY - 40;
+        cursorX = event.clientX - 45; // Subtrai metade do tamanho da div para centralizar
+        cursorY = event.clientY - 45;
     });
 
     // Função para interpolar movimento
@@ -43,12 +43,12 @@ const setup = ({ post }: Props) => {
       cursor.classList.add('flex')
       cursor.classList.add('items-center')
       cursor.classList.add('justify-center')
-      cursor.classList.add('p-4')
+      cursor.classList.add('p-8')
       cursor.classList.add('leading-none')
       cursor.classList.add('duration-150')
       cursor.textContent = 'Ver Mais'
-      cursor.style.height = '80px'
-      cursor.style.width = '80px'
+      cursor.style.height = '90px'
+      cursor.style.width = '90px'
       cursor.style.borderColor = '#FFFFFF'
     }
 
@@ -89,7 +89,7 @@ const setup = ({ post }: Props) => {
       cursor.classList.remove('flex')
       cursor.classList.remove('items-center')
       cursor.classList.remove('justify-center')
-      cursor.classList.remove('p-4')
+      cursor.classList.remove('p-8')
       cursor.classList.remove('leading-none')
       cursor.classList.remove('duration-150')
       cursor.textContent = ''
