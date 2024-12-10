@@ -1,0 +1,17 @@
+{
+  "__resolveType": "site/sections/Headers/HeaderVideoWithText.tsx",
+  "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/4b839ed0-f2dd-4978-96c5-98d154d14758/sobre.mov",
+  "title": "UM NOVO MODELO DE AGÊNCIA CAPAZ DE LIDERAR AS MARCAS MAIS ICÔNICAS DO NOSSO TEMPO",
+  "description": "Sobre a Galeria",
+  "position": "Centro",
+  "caption": [
+    {
+      "type": "Descrição",
+      "content": "Sobre a Galeria"
+    },
+    {
+      "type": "Título",
+      "content": "UM NOVO MODELO DE AGÊNCIA CAPAZ DE LIDERAR AS MARCAS MAIS ICÔNICAS DO NOSSO TEMPO"
+    }
+  ]
+}

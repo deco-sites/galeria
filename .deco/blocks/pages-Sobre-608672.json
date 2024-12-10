@@ -11,22 +11,13 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/HeaderVideoWithText.tsx",
-        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/4b839ed0-f2dd-4978-96c5-98d154d14758/sobre.mov",
-        "title": "Sobre a Galeria",
-        "description": "UM NOVO MODELO DE AGÊNCIA CAPAZ DE LIDERAR AS MARCAS MAIS ICÔNICAS DO NOSSO TEMPO",
-        "position": "Centro"
+        "__resolveType": "Header Sobre"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Contents/ContentDescription.tsx",
-        "description": [
-          "A Galeria foi fundada em 2021, com a missão de simplificar o ecossistema de comunicação dos anunciantes, fornecendo soluções completas e combinando tecnologia, criatividade, uso de dados e visão estratégica agnóstica.",
-          "A Galeria rapidamente se tornou a segunda maior agência do Brasil. Em seu primeiro ano foi eleita a Agência do Ano pelo Caboré e Melhores do Propmark.",
-          "Atualmente é a agência líder em OOH e a 2ª maior com investimentos de mídia do Brasil."
-        ]
+        "__resolveType": "Texto Sobre a Galeria"
       }
     },
     {

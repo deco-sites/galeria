@@ -9,7 +9,7 @@ function ContentButton({
   return (
     <>
         <section className="bg-black">
-            <div className="grid justify-center items-center">
+            <div className="grid justify-center items-center mb-4">
                 <a
                     href={url || "#"}
                     className={`${type}`}

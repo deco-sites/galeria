@@ -29,9 +29,9 @@ export default function Section({
     return (
         <section className="bg-black">
             <div className="container">
-                <div className="px-[15px] md:pt-[150px] w-full grid grid-cols-2 md:grid-cols-5 gap-0 bg-black">
+                <div className="px-[8%] md:pt-[150px] w-full grid grid-cols-2 md:grid-cols-5 gap-0 bg-black">
                     {clients.map((client) => (
-                        <div key={client.name} className="w-fit border border-solid border-dark-charcoal">
+                        <div key={client.name} className="w-fit border border-solid border-dark-charcoal opacity-70 hover:opacity-100 duration-150">
                             <Image
                             src={client.logo || ""}
                             alt={client.name}

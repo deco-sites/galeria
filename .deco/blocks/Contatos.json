@@ -1,0 +1,32 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentButton.tsx",
+        "text": "contato@galeria.ag",
+        "url": "mailto:contato@galeria.ag",
+        "type": "Texto Grande"
+      },
+      "title": "E-mail"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentButton.tsx",
+        "text": "55 11 4765 7090",
+        "url": "tel:551147657090",
+        "type": "Texto Grande"
+      },
+      "title": "Telefone"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentButton.tsx",
+        "text": "Ver vagas",
+        "url": "https://galeria.pandape.infojobs.com.br/",
+        "type": "Texto Pequeno"
+      },
+      "title": "Ver vagas"
+    }
+  ]
+}

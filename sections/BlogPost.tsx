@@ -48,25 +48,6 @@ function LoadComponent(
   );
 }
 
-function SocialIcons() {
-  return (
-    <div class="flex gap-2">
-      <div class="bg-gray-200 rounded-full p-1">
-        <Icon id="Link" size={24} />
-      </div>
-      <div class="bg-gray-200 rounded-full p-1">
-        <Icon id="LinkedinOutline" size={24} />
-      </div>
-      <div class="bg-gray-200 rounded-full p-1">
-        <Icon id="TwitterOutline" size={24} />
-      </div>
-      <div class="rounded-full bg-gray-200 p-1">
-        <Icon id="FacebookOutline" size={24} />
-      </div>
-    </div>
-  );
-}
-
 export default function BlogPost({ page }: Props) {
 
   const { title, image, content, year, company } = page?.post || DEFAULT_PROPS;
@@ -89,31 +70,12 @@ export default function BlogPost({ page }: Props) {
         </div>
         <div className="block anim-fadeinup">
           <div className="container !px-[15px] pt-[260px] grid gap-y-[30px] border-box">
-            <p className="text-[26px] font-helvetica font-normal leading-tight-36 text-white opacity-7">{title}</p>
+            <p className="text-[26px] font-helvetica font-normal leading-tight-36 text-white opacity-7 px-[8%]">{title}</p>
             {content?.map((section) => (
               LoadComponent(section)
             ))}
           </div>
         </div>
-        {/* <div class="flex flex-col gap-10 max-w-3xl w-full mx-auto">
-          <div class="space-y-4">
-            <p class="text-lg font-bold"></p>
-            <div class="flex flex-col gap-8 md:flex-row justify-between">
-              <SocialIcons />
-              <div class="flex gap-2 text-white text-xs">
-                <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
-                  
-                </p>
-                <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
-                  
-                </p>
-                <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
-                  
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> */}
     </section>
   );
 }

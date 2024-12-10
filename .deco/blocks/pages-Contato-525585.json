@@ -21,28 +21,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Contents/ContentButton.tsx",
-        "type": "Texto Grande",
-        "text": "contato@galeria.ag",
-        "url": "mailto:contato@galeria.ag"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contents/ContentButton.tsx",
-        "type": "Texto Grande",
-        "text": "55 11 4765 7090",
-        "url": "callto:+551147657090"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contents/ContentButton.tsx",
-        "type": "Texto Pequeno",
-        "text": "Ver vagas",
-        "url": "https://galeriaestrategiaecomunicacaoltda.pandape.infojobs.com.br/"
+        "__resolveType": "Links para Contato"
       }
     },
     {

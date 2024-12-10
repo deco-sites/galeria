@@ -33,7 +33,7 @@ export default function Section({
       <div className="container">
         <div className="!pb-[20px] !pr-[15px] text-center">
           <div className="mb-5 md:mb-[60px]">
-            <p className="text-dynamic-base font-helvetica font-medium text-gray-light text-start">{content}</p>
+            <p className="text-dynamic-base font-helvetica font-medium text-gray-light text-start px-[8%]">{content}</p>
           </div>
         </div>
       </div>

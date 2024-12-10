@@ -4,8 +4,7 @@ import Script, { type Props } from "./script.tsx";
 
 function HeaderImageWithText({ 
   image,
-  title,
-  description
+  caption
 }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
@@ -15,7 +14,6 @@ function HeaderImageWithText({
               {image && (
                   <Image
                     src={image}
-                    title={title}
                     className="hidden md:block w-full h-full object-cover"
                     />
               )}
@@ -24,8 +22,16 @@ function HeaderImageWithText({
           <div className="absolute top-[5%] flex flex-col justify-center items-center">
               <div className="!pt-[31vh] !pb-[80px] !px-[4%] mb-[30px] flex justify-center items-center">
                   <div className="max-w-[70%]">
-                      <h2 id="headerImageWithText-title" className="opacity-0 duration-1000 translate-y-12 text-lg font-helvetica font-medium leading-tight-28 text-gray-light font-bold text-center mb-3">{title}</h2>
-                      <p id="headerImageWithText-description" className="opacity-0 duration-1000 translate-y-12 text-[6vw] font-helvetica font-bold leading-tight-0.95 tracking-tight-2 text-white text-center">{description}</p>
+                      {caption.map((item) => (
+                        <>
+                          {item.type == 'Título' && (
+                            <h2 id="headerImageWithText-title" className="opacity-0 duration-1000 translate-y-12 text-lg font-helvetica font-medium leading-tight-28 text-gray-light font-bold text-center mb-3">{item.content}</h2>
+                          )}
+                          {item.type == 'Descrição' && (
+                            <p id="headerImageWithText-description" className="opacity-0 duration-1000 translate-y-12 text-[6vw] font-helvetica font-bold leading-tight-0.95 tracking-tight-2 text-white text-center">{item.content}</p>
+                          )}
+                        </>
+                      ))}
                   </div>
               </div>
           </div>

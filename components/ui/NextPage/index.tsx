@@ -33,13 +33,13 @@ function NextPage({
             
                 {/* Page Navigation */}
                 <div className="tt-page-nav relative mx-auto">
-                    <a href="pra-voce-chegar-la.html" className="relative flex items-center text-center no-underline overflow-hidden group">
+                    <a href={url} className="relative flex items-center text-center no-underline overflow-hidden group">
                         {/* Title */}
-                        <div className="relative block left-1/2 text-4xl md:text-6xl lg:text-[clamp(42px,6vw,110px)] font-bold text-white opacity-40 whitespace-nowrap transform -translate-x-1/2 transition-transform duration-700 ease-[cubic-bezier(0.51,0.57,0.17,1)] group-hover:-translate-y-full">
+                        <div className="relative block left-1/2 text-4xl md:text-6xl lg:text-[clamp(42px,6vw,110px)] font-bold text-white opacity-40 whitespace-nowrap transform -translate-x-1/2 transition-transform duration-700 ease-[cubic-bezier(0.51,0.57,0.17,1)] group-hover:-translate-y-full font-helvetica uppercase">
                             {text}
                         </div>
                         {/* Hover Title */}
-                        <div className="absolute left-1/2 w-full text-4xl md:text-6xl lg:text-[clamp(36px,6vw,110px)] font-bold text-white whitespace-nowrap transform -translate-x-1/2 translate-y-full transition-transform duration-700 ease-[cubic-bezier(0.51,0.57,0.17,1)] group-hover:translate-y-0">
+                        <div className="absolute left-1/2 w-full text-4xl md:text-6xl lg:text-[clamp(36px,6vw,110px)] font-bold text-white whitespace-nowrap transform -translate-x-1/2 translate-y-full transition-transform duration-700 ease-[cubic-bezier(0.51,0.57,0.17,1)] group-hover:translate-y-0 font-helvetica uppercase">
                             <div className="relative overflow-hidden">
                                 <div
                                     className="flex w-[200%] animate-marquee"

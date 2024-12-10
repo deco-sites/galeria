@@ -4,6 +4,20 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import HeaderImageWithText from "../../components/ui/HeaderImageWithText/index.tsx";
 
+  
+/**
+ * @title {{{type}}}
+ */
+export interface Caption {
+    /**
+     * @title Tipo
+     */
+    type: "Título" | "Descrição",
+    /**
+     * @title Conteúdo
+     */
+    content: string,
+  }
 export interface Props {
 
     /**
@@ -11,26 +25,21 @@ export interface Props {
      */
     image: ImageWidget,
     /**
-     * @title Título
+     * @title Textos
+     * @maxItems 2
      */
-    title: string,
-    /**
-     * @title Descrição
-     */
-    description: string,
+    caption: Caption[],
 
 }
 
 export default function Section({
     image = '',
-    title = '',
-    description = '',
+    caption
 }: Props) {
     return (
         <HeaderImageWithText 
             image={image}
-            title={title}
-            description={description}
+            caption={caption}
         ></HeaderImageWithText>
     )
 }

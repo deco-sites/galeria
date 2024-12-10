@@ -2,6 +2,21 @@ import { VideoWidget } from "apps/admin/widgets.ts";
 import Video from "apps/website/components/Video.tsx";
 import HeaderVideoWithText from "../../components/ui/HeaderVideoWithText/index.tsx";
 
+  
+/**
+ * @title {{{type}}}
+ */
+export interface Caption {
+  /**
+   * @title Tipo
+   */
+  type: "Título" | "Descrição",
+  /**
+   * @title Conteúdo
+   */
+  content: string,
+}
+
 export interface Props {
   /**
    * @title Vídeo
@@ -12,16 +27,10 @@ export interface Props {
    */
   videoMobile?: VideoWidget;
   /**
-   * @title Título
-   * @default Lorem Ipsum
+   * @title Textos
+   * @maxItems 2
    */
-  title: string;
-  /**
-   * @title Descrição
-   * @format textarea
-   * @default Lorem Ipsum
-   */
-  description: string;
+  caption: Caption[],
   /**
    * @title Posição do Texto
    * @default Esquerda
@@ -32,9 +41,8 @@ export interface Props {
 export default function Section({
   video,
   videoMobile,
-  title = "",
-  description = "",
-  position = "Esquerda",
+  caption,
+  position
 }: Props) {
   return (
     <section className="relative w-full h-[90vh]">
@@ -50,7 +58,6 @@ export default function Section({
           {video && (
             <Video
               src={video}
-              title={title}
               width={100}
               height={100}
               autoPlay
@@ -64,7 +71,6 @@ export default function Section({
           {videoMobile && (
             <Video
               src={videoMobile}
-              title={title}
               width={100}
               height={100}
               autoPlay
@@ -81,8 +87,7 @@ export default function Section({
           }`}
         >
           <HeaderVideoWithText
-            title={title}
-            description={description}
+            caption={caption}
           ></HeaderVideoWithText>
         </div>
       </div>

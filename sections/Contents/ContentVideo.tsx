@@ -17,7 +17,7 @@ export default function ContentVideoSection({
 }: Props) {
     return (
         <section className="w-full bg-black">
-            <div className="pt-[80px] w-full">
+            <div className="pt-[80px] w-full px-[8%]">
                 <Video 
                     src={video} 
                     width={100}
