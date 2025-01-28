@@ -2,37 +2,9 @@
   "name": "collections/blog/posts/96102b4e34a6",
   "__resolveType": "blog/loaders/Blogpost.ts",
   "post": {
-    "categories": [
-      {
-        "name": "Trabalhos",
-        "slug": "trabalhos"
-      }
-    ],
-    "content": [
-      {
-        "__resolveType": "site/sections/Contents/ContentText.tsx",
-        "content": "O estudo “Meninos: Sonhando os homens do futuro”, idealizado pelo Instituto PDH e Papo de Homem, viabilizado pela Natura e com apoio do Pacto Global da ONU no Brasil, revelou que 5 a cada 10 meninos de 15 a 17 anos têm dúvidas se são amados pelos pais. Inspirados pela pesquisa, criamos a campanha de Dia dos Pais da Natura. Convidamos o jogador Endrick, do Real Madrid, e seu pai Douglas para serem os protagonistas, com o intuito de inspirar e levar uma boa referência para outras famílias, apresentando um exemplo real de relação saudável e cuidado entre pai e filho. "
-      },
-      {
-        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
-        "video": "https://data.decoassets.com/galeria/63f3ee74-fff9-47ae-869e-58925c7ce4d1/Natura_Pais.mp4"
-      },
-      {
-        "__resolveType": "site/sections/Contents/ContentNextPage.tsx",
-        "url": "/trabalhos/helados",
-        "text": "Méqui",
-        "hoverText": "McDonald's",
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/16a5da54-7b10-407a-81b9-c115c1b342c4/capa.jpg"
-      }
-    ],
-    "extraProps": [],
-    "year": "2024",
-    "company": "Natura",
-    "title": "E se nós cuidássemos mais uns dos outros?",
-    "slug": "e-se-nós-cuidassemos-mais-uns-dos-outros",
-    "image": "https://data.decoassets.com/galeria/f279e798-2937-4337-8fd2-c9a4a4053bc2/Natura_Pais_30s_Hero_15.jpg",
-    "seo": {
-      "image": "https://data.decoassets.com/galeria/f279e798-2937-4337-8fd2-c9a4a4053bc2/Natura_Pais_30s_Hero_15.jpg"
-    }
+    "seo": {},
+    "categories": [],
+    "content": [],
+    "extraProps": []
   }
 }
