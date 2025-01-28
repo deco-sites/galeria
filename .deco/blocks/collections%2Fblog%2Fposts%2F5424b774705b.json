@@ -1,0 +1,31 @@
+{
+  "name": "collections/blog/posts/5424b774705b",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "content": "Com o objetivo de se consolidar como o melhor e mais atuante parceiro do empreendedor, lançamos o novo posicionamento de Itaú Empresas, destacando sua transformação nos últimos anos. Para a campanha, trouxemos o o ex-jogador Ronaldo para apresentar o conceito “Jogando Junto” e para traduzir os pilares que fazem do banco o parceiro ideal para impulsionar negócios e apoiar as pequenas e média empresas. "
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://data.decoassets.com/galeria/d8ce40e5-9747-46a6-ba32-c6e1ea072ece/Itau-Empresas.mp4"
+      }
+    ],
+    "extraProps": [],
+    "title": "Itaú Empresas",
+    "slug": "itaú-empresas",
+    "year": "2024",
+    "company": "Itaú",
+    "image": "https://data.decoassets.com/galeria/24224883-9d26-4678-9a1e-47b3692ee668/Frame-1.jpeg",
+    "seo": {
+      "image": "https://data.decoassets.com/galeria/24224883-9d26-4678-9a1e-47b3692ee668/Frame-1.jpeg"
+    }
+  }
+}
