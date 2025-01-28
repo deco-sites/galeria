@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/5e02fb7745a8",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "content": "Você sabe qual é a ideia de casa do Tadeu Schmidt? Midea, claro! A campanha que criamos para a marca parte de uma verdade: os brasileiros adoram mostrar a casa para as visitas. E é o próprio Tadeu que faz isso no principal filme da campanha, como se fosse um guia turístico, apresentando sua ideia de casa com a tecnologia, o design e a praticidade do portfólio completo Midea.   "
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx"
+      }
+    ],
+    "extraProps": [],
+    "title": "Mídea",
+    "slug": "/trabalho/mídea",
+    "year": "2024",
+    "company": "Mídea",
+    "image": "https://data.decoassets.com/galeria/bcba7e74-8c16-4d0b-a1a7-326d6608e007/3.png"
+  }
+}
