@@ -1,0 +1,23 @@
+{
+  "name": "collections/blog/posts/20f49f5cc0a5",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "content": "Há mais de três décadas, o McDia Feliz reverte a renda gerada com as vendas do Big Mac para causas infantojuvenis relacionados a saúde e educação. E para a campanha de 2024, chamamos uma embaixadora de peso para colocar o “Bloco do Bem” na rua: Ivete Sangalo. No filme, em clima festivo e empolgante, a cantora convida o público a participar do evento e, consequentemente, convidar outras pessoas a participarem dessa causa tão importante. "
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://data.decoassets.com/galeria/e7742f4f-7f35-4c93-9058-95709b596037/McDia-Feliz.mp4"
+      }
+    ],
+    "extraProps": [],
+    "title": "McDia Feliz",
+    "slug": "mcdia-feliz",
+    "year": "2024",
+    "company": "McDonald's",
+    "image": "https://data.decoassets.com/galeria/468ca320-5cfc-441a-b0ee-f395b1bc4994/IVT-MC-DONALDS0052.jpg"
+  }
+}

@@ -2,7 +2,12 @@
   "name": "collections/blog/posts/7753962ee9c3",
   "__resolveType": "blog/loaders/Blogpost.ts",
   "post": {
-    "categories": [],
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
     "content": [
       {
         "__resolveType": "site/sections/Contents/ContentText.tsx",
