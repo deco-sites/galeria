@@ -1,0 +1,14 @@
+{
+  "name": "collections/blog/posts/bad41949a046",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [],
+    "content": [],
+    "extraProps": [],
+    "title": "Tasty Turbo e Tasty Turbo Queijo ",
+    "slug": "tastyturboetastyturboqueijo",
+    "year": "2024",
+    "company": "McDonald's",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/galeria/6a8fafc9-e885-4a64-983a-4ba02c571561/16x9_Mequi_Tasty-Turbo_30s_Edit-32B_ONLINE_241002_17h30_06.jpg"
+  }
+}
