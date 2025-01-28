@@ -1,0 +1,31 @@
+{
+  "name": "collections/blog/posts/027fb8b23190",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "categories": [
+      {
+        "name": "Trabalhos",
+        "slug": "trabalhos"
+      }
+    ],
+    "content": [
+      {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "content": "No ano em que comemorou seu centenário e em sua sétima participação como patrocinador master do evento, o Itaú apresentou a promoção “Rock in Rio Forever”, que ofereceu aos clientes do banco uma chance de garantir presença nas próximas 50 edições do festival – um passaporte que irá durar pelos próximos 100 anos. Levar os clientes para o Rock in Rio “para sempre” é a forma certa para comemorar esse aniversário. "
+      },
+      {
+        "__resolveType": "site/sections/Contents/ContentVideo.tsx",
+        "video": "https://data.decoassets.com/galeria/b0cce838-615e-43cd-9d9e-cedace482f48/Itau-Uniclass_Rock-in-Rio.mp4"
+      }
+    ],
+    "extraProps": [],
+    "title": "Itaú Uniclass | Rock in Rio",
+    "slug": "itau-uniclass-rock-in-rio",
+    "year": "2024",
+    "company": "Itaú",
+    "image": "https://data.decoassets.com/galeria/ccb367a3-02d9-4dc7-bd8c-d0bb202d9f11/Captura-de-tela-2025-01-28-131825.png",
+    "seo": {
+      "image": "https://data.decoassets.com/galeria/ccb367a3-02d9-4dc7-bd8c-d0bb202d9f11/Captura-de-tela-2025-01-28-131825.png"
+    }
+  }
+}
